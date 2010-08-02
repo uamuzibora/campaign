@@ -1,0 +1,97 @@
+<%namespace name="util" file="functions.html" />
+<%include file="header.html"/>
+<%!
+   import config
+%>
+<%
+data=content[0]
+locations=content[1]
+%>
+<div class="span-14 last append-5 prepend-5 last">
+<form action="${config.webroot}" method="POST" name="locations">
+  <fieldset style="text-align:center;">
+    <div class="span-13">
+      
+      <div class="span-2 prepend-1"> <h3> Zone</h3></div>
+      <div class="span-4"><h3> District</h3></div>
+      <div class ="span-2 last"><h3>Site </h3></div>
+    </div>
+    <div class="span-11 last prepend-1">
+  <select name="zone" onChange="document.forms['locations'].submit();">
+    <option value="All">All</option>
+    %for i in sorted(locations[0][0]):
+        <option value="${i[0]}"
+		%if i[0]==locations[1][0]:
+		    SELECTED
+		%endif
+	>${i[1]}</option>
+    %endfor
+    </select>
+    <select name="district" onChange="document.forms['locations'].submit();">
+    <option value="All">All</option>
+    %for i in sorted(locations[0][1]):
+        <option value="${i[0]}"
+		%if i[0]==locations[1][1]:
+		    SELECTED
+		%endif
+	>${i[1]}</option>
+        
+    %endfor
+    </select>
+    <select name="site" onChange="document.forms['locations'].submit();" >
+    <option value="All">All</option>
+    %for i in sorted(locations[0][2]):
+       <option value="${i[0]}"
+		%if i[0]==locations[1][2]:
+		    SELECTED
+		%endif
+	>${i[1]}</option>
+        
+    %endfor
+    </select>
+    </div>
+</fieldset>
+</form>
+</div>
+<hr />
+<div class="span-24 ">
+  <h2 style="text-align:center;"> Total </h2>
+  <div class="span-12">
+    
+    
+    ${util.date_table(data.total_wp)}
+  </div>
+  <div class="span-12 last">
+    ${util.timeline(data.total,"",0)}
+  </div>
+</div>
+<div class="span-24">
+  <h2 style="text-align:center;">Sex</h2>
+  <div class="span-12">
+    
+    ${util.table(data.sex_wp)}
+  </div>
+  <div class="span-12 last">
+    ${util.bar_chart(data.sex,"",1)}
+  </div>
+</div>
+<div class="span-24 ">
+<h2 style="text-align:center;">Age</h2>
+  <div class="span-12">
+
+    ${util.table(data.age)}
+  </div>
+  <div class="span-12 last">
+    ${util.histogram(data.age_tested,"Tested by age",2)}
+  </div>
+</div>
+<div class="span-24">
+  <h2 style="text-align:center;">Location</h2>
+  <div class="span-12">
+    ${util.table(data.geo)}
+  </div>
+  <div class="span-12 last">
+    ${util.histogram(data.age_prev,"% HIV Prevalence by age",3)}
+  </div>
+</div>
+<%include file="footer.html"/>

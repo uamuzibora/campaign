@@ -1,0 +1,347 @@
+<%!
+   import config
+   import datetime
+%>
+
+<%def name="date(date)">
+${datetime.datetime.strptime(date,"%Y-%m-%d %H:%M:%S").strftime("%d %b %Y")}
+</%def>
+<%def name="date_table(data)">
+<table>  
+<%
+i=0
+total=[0,0,0]
+keys=sorted(data.keys())
+
+%>
+          %if len(data.keys())>0:
+	  <tr><td></td>
+	  %for k in sorted(data[data.keys()[0]].keys(),reverse=True):
+	       <td>${k}</td>
+	  %endfor
+	  </tr>
+
+	  %for k in keys:
+	          <%
+		  n=0
+	          %>
+		  <tr 
+		     %if i%2==0: 
+		      class="even" 
+		      %endif
+		      >
+	          <td>${date(k)}</td>
+		  %for k2 in sorted(data[k].keys(),reverse=True):
+		          <%
+			   total[n]+=int(data[k][k2])
+			   n+=1
+			  %> 
+			  %if type(data[k][k2])==float:
+		               <td>${"%2.1f" % data[k][k2]}</td>
+			  %else:
+			       <td>${data[k][k2]}</td>
+			  %endif
+		          
+		  %endfor
+		  <%
+		  i+=1
+		  %>
+		  </tr>
+          %endfor
+	  <%
+	     total[2]=total[1]/float(total[0])*100
+	     %>
+          <tr 	
+	     %if i%2==0: 
+	     class="even" 
+	     %endif
+	     >
+	  <td>Total</td>
+	  %for t in total:
+	      %if type(t)==float:
+	          <td>${"%2.1f" % t}</td>
+	      %else:
+	          <td>${t}</td>
+	      %endif
+	  %endfor
+
+	  %else:
+	       	  <td>Total</td>
+	  %for t in total:
+	       <td>${t}</td>
+	  %endfor
+	  %endif
+	  </tr>
+</table>
+</%def>
+
+<%def name="timeline(data,title, number)">
+<div id="plot${number}" style="width:500px;height:250px;"></div>
+   <%
+   import time,calendar
+   new_dates=[]
+   timeseries={}
+   max=0
+   max_time=0
+   if len(data.keys())>0:
+       series = data[data.keys()[0]].keys()
+       for d in data.keys():
+           new_dates.append(calendar.timegm(time.strptime(d,"%Y-%m-%d %H:%M:%S"))*1000)
+       max_time=sorted(new_dates)[0]+6*24*3600*1000
+       if sorted(new_dates)[-1]>max_time:
+           max_time=sorted(new_dates)[-1]
+       for serie in sorted(series):
+           values_str='[';
+           i=0
+           for k in data.keys():
+                 if data[k][serie]>max:
+                     max=data[k][serie]
+                 values_str+='['+str(new_dates[i])+','+str(data[k][serie])+'],'
+                 i+=1
+           values_str=values_str[0:-1]+']'
+           timeseries[serie]=values_str
+   else:
+       timeseries={}
+   %>
+   <script type="text/javascript">
+      
+      /**
+      * Wait till dom's finished loading.
+      */
+      document.observe('dom:loaded',timeline(${number}));
+
+      function timeline(number)
+      {	
+      
+          /**
+          * Fill series d1.
+          */
+      <%
+      prefix='';
+     %>
+		var f=Flotr.draw(${'plot'+str(number)},[ 
+     %for s in sorted(timeseries.keys()):
+	${prefix}{data:${timeseries[s]}, label:'${s}'}
+        <%
+	prefix=','
+	%>
+     %endfor
+
+		],{
+			xaxis:{
+	                     max: ${max_time},
+			     mode:'time'
+			},
+	                yaxis:{
+	                       min: 0,
+			       max: ${max+max/10.}
+	                },
+			selection: {
+				mode: 'x'
+			},
+			        HtmlText: false,
+	                legend: {position:'se'},
+	                title: "${title}"
+			});
+	}
+	
+
+    </script>
+</%def>
+<%def name="bar_chart(data,title,number)">
+   <%
+   series={}
+   labels=[]
+   ser=data.keys()
+   x_shift=1/float(len(data[data.keys()[0]].keys()))
+   x=0
+ 
+   for serie in sorted(ser):
+       values_str='[';
+       i=0
+ 
+       for v in data[serie].values():
+ 
+           values_str+='['+str(i+x)+','+str(v)+'],'
+           i+=1
+ 
+       values_str=values_str[0:-1]+']'
+       series[serie]=values_str
+       x+=x_shift
+	
+		
+   label_str='[';
+   i=0;
+
+   xaxis=data[data.keys()[0]].keys()
+
+   length=len(xaxis)
+   if x_shift==1:
+          label_shift=1
+   else:
+          label_shift=x_shift
+   for v in xaxis:
+          label_str+='['+str(i+0.5-x_shift/2.)+',"'+str(v)+'"],'
+          i+=1
+   label_str=label_str[0:-1]+']'
+
+   %>	
+<div id="plot${number}" style="width:500px;height:250px;"></div>
+<script type="text/javascript">
+			/**
+			 * Wait till dom's finished loading.
+			 */
+			document.observe('dom:loaded',bar_chart(${number}));
+
+			function bar_chart(number)
+			{
+				/**
+				 * Fill series d1 and d2.
+				 */
+
+			    
+				/**
+				 * Draw the graph.
+				 */
+					var f = Flotr.draw($('plot'+number),[
+						<%
+						prefix='';
+						
+						%>
+						%for s in sorted(series.keys()):
+						${prefix}{data:${series[s]}, label:'${s}'}
+							<%
+							prefix=','
+							
+							%>
+						
+						%endfor
+						] ,
+						{
+						bars: {show:true, barWidth:${x_shift}},
+						xaxis:{
+							ticks: ${label_str},
+							min: -0.5,
+							max: ${length},
+							
+							autoscaleMargin: 1
+
+				
+							},
+						yaxis:{min:0, autoscaleMargin: 1},
+						HtmlText: false,
+			                        title: "${title}"	
+						}
+
+				);
+			}
+	</script>
+</%def>
+<%def name="table(data)">
+<table>  
+	  <tr><td></td>
+	  %for k in sorted(data[data.keys()[0]].keys(),reverse=True):
+	       <td>${k}</td>
+	  %endfor
+	  </tr>
+	  <%
+	  i=0
+	  %>
+	  %for k in sorted(data.keys()):
+	          
+	          <tr 
+		     %if i%2==0: 
+		      class="even" 
+		      %endif
+		      >
+	          <td>${k}</td>
+		  %for v in sorted(data[k].keys(),reverse=True):
+		          %if type(data[k][v])==float:
+		               <td>${"%2.1f" % data[k][v]}</td>
+			  %else:
+			       <td>${ data[k][v]}</td>
+			  %endif
+		  %endfor
+		  
+		  <%
+		  i+=1
+		  %>
+		  </tr>
+          %endfor
+</table>
+</%def>
+<%def name="histogram(data,title,number)">
+<%
+   
+   x_shift=1/float(len(data))
+   x=0
+ 
+
+   values_str='[';
+
+   i=0
+   for k in sorted(data.keys()):
+ 
+       values_str+='['+str(i+x)+','+str(data[k])+'],'
+       i+=1
+ 
+   values_str=values_str[0:-1]+']'
+      
+   
+	
+		
+   label_str='[';
+   i=0;
+
+   xaxis=sorted(data.keys())
+
+   length=len(xaxis)
+
+   for v in xaxis:
+          label_str+='['+str(i)+',"'+str(v)+'"],'
+          i+=1
+   label_str=label_str[0:-1]+']'
+%>
+<div id="plot${number}" style="width:500px;height:250px;"></div>
+<script type="text/javascript">
+			/**
+			 * Wait till dom's finished loading.
+			 */
+			document.observe('dom:loaded',histogram(${number}));
+
+			function histogram(number)
+			{
+				/**
+				 * Fill series d1 and d2.
+				 */
+
+			    
+				/**
+				 * Draw the graph.
+				 */
+					var f = Flotr.draw($('plot'+number),[
+			                        ${values_str}
+						] ,
+						{
+						bars: {show:true, barWidth:1},
+						xaxis:{
+							ticks: ${label_str},
+							min: -0.5,
+							max: ${length},
+							
+							autoscaleMargin: 1
+
+				
+							},
+						yaxis:{min:0, autoscaleMargin: 1},
+						HtmlText: false,
+			                        title: "${title}"
+						}
+
+				);
+			}
+	</script>
+</%def>
+
+
+

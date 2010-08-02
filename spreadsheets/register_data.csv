@@ -1,0 +1,9 @@
+"Test Site ID",1,"Province",3,"District",2,"Site Type",2,,,,,,,,,,,,,,,,,,,,,,,,
+"Date",12/04/10,"Care Packs left:",300,"HIV tests left",123,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Counsellor","Return Visit","New Code","Client code","Partner Code","Mother's Maiden name","Sex","Age","Occupation","Education","Marital Status","Client Seen as","Client Pregnant","Service Required","Why here today","How did the client learn about this service","Has client ever had sex","Heterosexual parters last 12 months","Homosexual parters last 12 months","Condom used in last 12 months steady partner","Condom used in last 12 months Non-steady partner","Condom used last sex","If not testeed, why not?","Has client been tested before?","HIV test no. 1 result","HIV test no2. Result","Tie breaker test","HIV result","Syphilis testing","Couple discordant","Condoms given","Referred to"
+1,2,1,"A36",3,"Bjarne",1,12,1,1,2,3,1,2,1,3,2,1,3,2,1,3,1,2,3,4,2,1,1,2,3,4
+1,2,1,"A37",3,"Bjarne",1,12,1,1,2,4,1,2,1,3,2,1,3,2,1,3,1,2,3,4,2,1,1,2,3,4
+1,2,1,"A38",3,"Bjarne",1,12,1,1,2,2,1,2,1,3,2,1,3,2,1,3,1,2,3,4,2,1,1,2,3,4
+1,2,1,"A39",3,"Bjarne",1,12,1,1,2,1,1,2,1,3,2,1,3,2,1,3,1,2,3,4,2,1,1,2,3,4
+1,2,1,"A40",3,"Bjarne",1,12,1,1,2,2,1,2,1,3,2,1,3,2,1,3,1,2,3,4,2,1,1,2,3,4

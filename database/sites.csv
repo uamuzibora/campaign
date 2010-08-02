@@ -1,0 +1,661 @@
+"Zone ID";"Zone Name";"District ID";"District Name";"Site ID";"Site Code";"Site Name";"Site Type";"Latitude";"Longitude"
+"A";"Busia";1;"Bunyala";1;"A01001";"Port Victoria";"Sub-District Hospital/Ccc";0.09703;33.97586
+"A";"Busia";1;"Bunyala";2;"A01002";"Budalangi";"Dispensary";0.13055;34.02778
+"A";"Busia";1;"Bunyala";3;"A01003";"Sisenye";"Dispensary";0.14121;34.01444
+"A";"Busia";1;"Bunyala";4;"A01004";"Sirimba";"Mission Dispensary";0.14435;34.05834
+"A";"Busia";1;"Bunyala";5;"A01005";"Mukhobola ";"H/C";0.08166;34.02995
+"A";"Busia";1;"Bunyala";6;"A01006";"Rukala";"Dispensary";0.05638;33.99227
+"A";"Busia";1;"Bunyala";7;"A01007";"Mau Mau";"Shopping Centre";0.07069;33.98925
+"A";"Busia";1;"Bunyala";8;"A01008";"Makunda ";"Sec School";0.08732;34.02248
+"A";"Busia";1;"Bunyala";9;"A01009";"Bulemia";"Shopping Centre";0.11475;34.00094
+"A";"Busia";1;"Bunyala";10;"A01010";"Nabengele";"Shopping Centre";0.15934;34.06269
+"A";"Busia";2;"Samia";11;"A02011";"Sio Port";"Dispensary";0.22512;34.217
+"A";"Busia";2;"Samia";12;"A02012";"Agenga";"Dispensary";0.25273;34.07073
+"A";"Busia";2;"Samia";13;"A02013";"Nangina";"Dispensary";0.27736;34.09875
+"A";"Busia";2;"Samia";14;"A02014";"Namboboto";"Dispensary";0.30428;34.09181
+"A";"Busia";2;"Samia";15;"A02015";"Nambuku";"Dispensary";0.31829;34.11036
+"A";"Busia";2;"Samia";16;"A02016";"Kabuodo";"Dispensary";0.30464;34.15932
+"A";"Busia";2;"Samia";17;"A02017";"Wakhungu";"Dispensary";0.26889;34.13156
+"A";"Busia";2;"Samia";18;"A02018";"Ack Funyula";"Church";0.27712;34.11832
+"A";"Busia";2;"Samia";19;"A02019";"Buduta";"Dispensary";0.22208;34.10933
+"A";"Busia";2;"Samia";20;"A02020";"Rumbiye";"Dispensary";0.20378;34.09579
+"A";"Busia";2;"Samia";21;"A02021";"Namuduru";"Dispensary";0.16726;34.09734
+"A";"Busia";2;"Samia";22;"A02022";"Nabuganda";"Dispensary";0.17937;34.03769
+"A";"Busia";2;"Samia";23;"A02023";"Nanderema";"Chiefs Office";0.20491;34.06801
+"A";"Busia";2;"Samia";24;"A02024";"Busembe";"Dispensary";0.1853;34.01623
+"A";"Busia";2;"Samia";25;"A02025";"Sio Port";"Dispensary";0.22511;34.02171
+"A";"Busia";2;"Samia";26;"A02026";"Agenga";"Dispensary";0.25271;34.07073
+"A";"Busia";2;"Samia";27;"A02027";"Nangina";"Dispensary";0.27736;34.09874
+"A";"Busia";2;"Samia";28;"A02028";"Namboboto";"Dispensary";0.30431;34.09182
+"A";"Busia";2;"Samia";29;"A02029";"Nambuku";"Dispensary";0.31828;34.11034
+"A";"Busia";2;"Samia";30;"A02030";"Kabuodo";"Dispensary";0.30459;34.15934
+"A";"Busia";2;"Samia";31;"A02031";"Wakhungu";"Dispensary";0.26834;34.13161
+"A";"Busia";2;"Samia";32;"A02032";"Ack Funyula";"Church";0.27702;34.11828
+"A";"Busia";2;"Samia";33;"A02033";"Buduta";"Dispensary";0.22208;34.10934
+"A";"Busia";2;"Samia";34;"A02034";"Rumbiye";"Dispensary";0.20379;34.09577
+"A";"Busia";2;"Samia";35;"A02035";"Namuduru";"Dispensary";0.16724;34.09731
+"A";"Busia";2;"Samia";36;"A02036";"Nabuganda";"Dispensary";0.17936;34.03766
+"A";"Busia";2;"Samia";37;"A02037";"Nanderema";"Chiefs Office";0.20511;34.06807
+"A";"Busia";2;"Samia";38;"A02038";"Busembe";"Dispensary";0.18529;34.01623
+"A";"Busia";3;"Busia";39;"A03039";"Busia(Ampath)";"Ccc";0.45993;34.10446
+"A";"Busia";3;"Busia";40;"A03040";"Trailer Park";"Clinic";0.4638;34.09989
+"A";"Busia";3;"Busia";41;"A03041";"Tanaka";"N.Home";0.45273;34.12466
+"A";"Busia";3;"Busia";42;"A03042";"Busia GK Prison";"Disp";0.4459;34.14502
+"A";"Busia";3;"Busia";43;"A03043";"Bukalama(New)";"Disp";0.45067;34.18741
+"A";"Busia";3;"Busia";44;"A03044";"Nasira ACK";"Church";0.43124;34.20234
+"A";"Busia";3;"Busia";45;"A03045";"Busibwabo";"Disp";0.41063;34.20117
+"A";"Busia";3;"Busia";46;"A03046";"Nambale";"H/C";0.4558;34.2388
+"A";"Busia";3;"Busia";47;"A03047";"Segero Catholic";"Church";0.49981;34.26686
+"A";"Busia";3;"Busia";48;"A03048";"Lupida";"H/C";0.57719;34.34256
+"A";"Busia";3;"Busia";49;"A03049";"Dulienge";"School";0.56467;34.36181
+"A";"Busia";3;"Busia";50;"A03050";"Igara";"Disp";0.53279;34.3632
+"A";"Busia";3;"Busia";51;"A03051";"Madibo Ass Chiefs'";"Office";0.52508;34.38849
+"A";"Busia";3;"Busia";52;"A03052";"Khayo";"Disp";0.51051;34.38895
+"A";"Busia";3;"Busia";53;"A03053";"Madende";"Disp";0.4767;34.34653
+"A";"Busia";3;"Busia";54;"A03054";"Mungatsi Ass Chiefs'";"Office";0.47074;34.31552
+"A";"Busia";3;"Busia";55;"A03055";"Your Family";"Clinic";0.41394;34.14665
+"A";"Busia";3;"Busia";56;"A03056";"Munongo";"Disp";0.38101;34.12121
+"A";"Busia";3;"Busia";57;"A03057";"Mayenje Ass Chiefs'";"Office";0.41876;34.10555
+"A";"Busia";3;"Busia";58;"A03058";"New Busia-Bulanda";"N.Home";0.45245;34.10208
+"A";"Busia";3;"Busia";59;"A03059";"Malanga";"Disp";0.40361;34.29635
+"A";"Busia";3;"Busia";60;"A03060";"Lwanyange(New)";"Disp";0.42945;34.27544
+"A";"Busia";3;"Busia";61;"A03061";"Buyende";"School";0.38384;34.13527
+"A";"Busia";3;"Busia";62;"A03062";"Matayos Community";"Clinic";0.36716;34.16359
+"A";"Busia";3;"Busia";63;"A03063";"Mabunge Chiefs'";"Office";0.40359;34.26197
+"A";"Busia";3;"Busia";64;"A03064";"St Claires Kisoko";"Disp";0.44926;34.28005
+"A";"Busia";3;"Busia";65;"A03065";"Nambale REEP";"Y.F Centre";0.4514;34.2546
+"A";"Busia";3;"Busia";66;"A03066";"Nasewa";"H/C";0.38601;34.23896
+"A";"Busia";3;"Busia";67;"A03067";"Matayos";"H/C";0.35663;34.17151
+"A";"Busia";3;"Busia";68;"A03068";"Bumala ""A""";"H/C";0.29162;34.19205
+"A";"Busia";3;"Busia";69;"A03069";"Busire ACK";"Church";0.31014;34.19975
+"A";"Busia";3;"Busia";70;"A03070";"Bujumba";"Disp";0.32255;34.2142
+"A";"Busia";3;"Busia";71;"A03071";"Burinda";"Disp";0.30773;34.2215
+"A";"Busia";3;"Busia";72;"A03072";"Ikonzo";"Disp";0.34385;34.22547
+"A";"Busia";3;"Busia";73;"A03073";"Namwitsula";"School";0.36079;34.2098
+"A";"Busia";3;"Busia";74;"A03074";"Khunyangu(Ampath)";"Ccc";0.33745;34.25792
+"A";"Busia";3;"Busia";75;"A03075";"Bumutiru";"Disp";0.37618;34.26419
+"A";"Busia";3;"Busia";76;"A03076";"Sikoma ACK";"Church";0.34421;34.27718
+"A";"Busia";3;"Busia";77;"A03077";"Bukhalalire";"Disp";0.31826;34.27498
+"A";"Busia";3;"Busia";78;"A03078";"Butula REEP";"YF Centre";0.34136;34.33217
+"A";"Busia";3;"Busia";79;"A03079";"Butula Miss";"H/C";0.34208;34.33237
+"A";"Busia";3;"Busia";80;"A03080";"Sikarira";"Disp";0.32417;34.3267
+"A";"Busia";3;"Busia";81;"A03081";"Masindabale";"Disp";0.32557;34.37383
+"A";"Busia";3;"Busia";82;"A03082";"Musibiriri";"Disp";0.34387;34.39288
+"A";"Busia";3;"Busia";83;"A03083";"Ogalo Calvary";"Church";0.36028;34.40425
+"A";"Busia";3;"Busia";84;"A03084";"Bumala ""B""";"H/C";0.39004;34.35003
+"A";"Busia";3;"Busia";85;"A03085";"Esibembe";"School";0.40862;34.31508
+"A";"Busia";3;"Busia";86;"A03086";"Bwaliro";"Disp";0.37811;34.31705
+"A";"Busia";4;"Teso";87;"A04087";"Tdh";"Hospital";0.62061;34.3453
+"A";"Busia";4;"Teso";88;"A04088";"Malaba Dispensary";"H/Facility";0.63626;34.28687
+"A";"Busia";4;"Teso";89;"A04089";"Kamuriai H/C";"H/Facility";0.66466;34.29915
+"A";"Busia";4;"Teso";90;"A04090";"Akichelesit Disp.";"H/Facility";0.69134;34.34323
+"A";"Busia";4;"Teso";91;"A04091";"Angurai  H/C";"H/Facility";0.70932;34.35152
+"A";"Busia";4;"Teso";92;"A04092";"Aboloi";"H/Facility";0.65446;34.39331
+"A";"Busia";4;"Teso";93;"A04093";"Kolanya";"H/Facility";0.70572;34.39703
+"A";"Busia";4;"Teso";94;"A04094";"Chemasir";"H/Facility";0.73404;34.39334
+"A";"Busia";4;"Teso";95;"A04095";"Changara Mission";"H/Facility";0.73914;34.41626
+"A";"Busia";4;"Teso";96;"A04096";"Changara Gok";"H/Facility";0.75379;34.34804
+"A";"Busia";4;"Teso";97;"A04097";"Moding H/C";"H/Facility";0.69166;34.3606
+"A";"Busia";4;"Teso";98;"A04098";"Kakapel";"Pri. School";0.67512;34.35346
+"A";"Busia";4;"Teso";99;"A04099";"Awata Market";"Open Market";0.64416;34.34434
+"A";"Busia";4;"Teso";100;"A04100";"Amagoro Pri. School";"School";0.62987;34.33146
+"A";"Busia";4;"Teso";101;"A04101";"Kamolo Disp.";"H/Facility";0.58754;34.29447
+"A";"Busia";4;"Teso";102;"A04102";"Malaba Ncbd";"Cereal Board";0.63546;34.26804
+"A";"Busia";4;"Teso";103;"A04103";"Chelelemuk Disp.";"H/Facility";0.6206;34.34528
+"A";"Busia";4;"Teso";104;"A04104";"Amukura Mission";"H/Facility";0.572;34.27272
+"A";"Busia";4;"Teso";105;"A04105";"St. Pauls Amukura";"School";0.56854;34.27382
+"A";"Busia";4;"Teso";106;"A04106";"Amukura Hospital";"Hospital";0.56214;34.27325
+"A";"Busia";4;"Teso";107;"A04107";"Moru Karisa";"H/Facility";0.54767;34.20966
+"A";"Busia";4;"Teso";108;"A04108";"Apokor";"H/Facility";0.52905;34.28315
+"A";"Busia";4;"Teso";109;"A04109";"Kaliwa";"School";0.51201;34.23469
+"A";"Busia";4;"Teso";110;"A04110";"Obekai";"H/Facility";0.51166;34.20972
+"A";"Busia";4;"Teso";111;"A04111";"Ochude";"H/Facility";0.47997;34.17626
+"A";"Busia";4;"Teso";112;"A04112";"Alupe Sub-District";"H/Facility";0.49777;34.13047
+"A";"Busia";4;"Teso";113;"A04113";"Adungosi";"Market";0.51542;34.15168
+"A";"Busia";4;"Teso";114;"A04114";"Chakol Girls";"School";0.5171;34.16316
+"A";"Busia";4;"Teso";115;"A04115";"Amaase";"H/Facility";0.5233;34.17687
+"A";"Busia";4;"Teso";116;"A04116";"St. Marys' Pr. School";"School";0.55237;34.17874
+"A";"Busia";4;"Teso";117;"A04117";"Lukolis";"H/Facility";0.58262;34.20847
+"A";"Busia";4;"Teso";118;"A04118";"Fr. Okodoi";"School";0.58498;34.21073
+"A";"Busia";4;"Teso";119;"A04119";"St. Mark Ack Machakus";"School";0.60759;34.23304
+"B";"Bungoma";5;"Bungoma South";120;"B05120";"Watoya Mkt";"Chiefs Camp";0.45442;34.51867
+"B";"Bungoma";5;"Bungoma South";121;"B05121";"Kibachenje";"Church";0.5197;34.49998
+"B";"Bungoma";5;"Bungoma South";122;"B05122";"Mateka Mkt";"D.O's Office";0.53564;34.49701
+"B";"Bungoma";5;"Bungoma South";123;"B05123";"Lunakwe Mkt";"Church";0.52401;34.49751
+"B";"Bungoma";5;"Bungoma South";124;"B05124";"Nasianda";"Disp";0.49915;34.45457
+"B";"Bungoma";5;"Bungoma South";125;"B05125";"Khulwanda";"Disp";0.48144;34.41569
+"B";"Bungoma";5;"Bungoma South";126;"B05126";"Khasoko";"H/C";0.48408;34.40223
+"B";"Bungoma";5;"Bungoma South";127;"B05127";"Mabusi(Chemaika)";"School";0.52235;34.42124
+"B";"Bungoma";5;"Bungoma South";128;"B05128";"Khelela AC";"School";0.53622;34.40746
+"B";"Bungoma";5;"Bungoma South";129;"B05129";"Bumula";"H/C";0.54883;34.46019
+"B";"Bungoma";5;"Bungoma South";130;"B05130";"Myanga(Liporina Approved)";"School";0.55682;34.38411
+"B";"Bungoma";5;"Bungoma South";131;"B05131";"Tulukui";"School";0.58744;34.37691
+"B";"Bungoma";5;"Bungoma South";132;"B05132";"Kimaete";"Disp";0.60433;34.40761
+"B";"Bungoma";5;"Bungoma South";133;"B05133";"Machwele";"Disp";0.59647;34.44272
+"B";"Bungoma";5;"Bungoma South";134;"B05134";"Kibuke";"Disp";0.60395;34.48852
+"B";"Bungoma";5;"Bungoma South";135;"B05135";"Grace Med. Centre";"Disp";0.59384;34.49941
+"B";"Bungoma";5;"Bungoma South";136;"B05136";"Ng'oli";"Chiefs Camp";0.58409;34.50858
+"B";"Bungoma";5;"Bungoma South";137;"B05137";"Kibabi";"H/C";0.61943;34.52559
+"B";"Bungoma";5;"Bungoma South";138;"B05138";"Kakichuma RC";"School";0.69084;34.53521
+"B";"Bungoma";5;"Bungoma South";139;"B05139";"Mayanja";"Disp";0.65567;34.51494
+"B";"Bungoma";5;"Bungoma South";140;"B05140";"Mukwa RC";"School";0.67254;34.49459
+"B";"Bungoma";5;"Bungoma South";141;"B05141";"Miluki";"Disp";0.64177;34.49633
+"B";"Bungoma";5;"Bungoma South";142;"B05142";"Siboti";"Disp";0.63231;34.4574
+"B";"Bungoma";5;"Bungoma South";143;"B05143";"Netima";"D.O's Office";0.65534;34.46894
+"B";"Bungoma";5;"Bungoma South";144;"B05144";"Musakasa RC";"School";0.64559;34.44824
+"B";"Bungoma";5;"Bungoma South";145;"B05145";"Kitabisi";"Church";0.64282;34.41053
+"B";"Bungoma";5;"Bungoma South";146;"B05146";"Bitobo RC";"School";0.62273;34.3877
+"B";"Bungoma";5;"Bungoma South";147;"B05147";"Posta Grounds";"Church";0.56788;34.55902
+"B";"Bungoma";5;"Bungoma South";148;"B05148";"Namachanja";"Chiefs Camp";0.56415;34.55921
+"B";"Bungoma";5;"Bungoma South";149;"B05149";"Mashambani";"Church";0.57028;34.56314
+"B";"Bungoma";5;"Bungoma South";150;"B05150";"Mupeli Pri";"School";0.55749;34.55877
+"B";"Bungoma";5;"Bungoma South";151;"B05151";"Oldrex";"Church";0.55923;34.55493
+"B";"Bungoma";5;"Bungoma South";152;"B05152";"Mjini Muslim";"School";0.55137;34.55388
+"B";"Bungoma";5;"Bungoma South";153;"B05153";"River Jordan";"Med. Clinic";0.52912;34.53191
+"B";"Bungoma";5;"Bungoma South";154;"B05154";"Samoya RC";"School";0.54567;34.52789
+"B";"Bungoma";5;"Bungoma South";155;"B05155";"Muanda Catholic ";"Church";0.56062;34.50815
+"B";"Bungoma";5;"Bungoma South";156;"B05156";"Siritanyi Pri";"School";0.57764;34.53382
+"B";"Bungoma";5;"Bungoma South";157;"B05157";"Kanduyi";"D.O's Office";0.593;34.5531
+"B";"Bungoma";5;"Bungoma South";158;"B05158";"Ndengelwa(Nalutiri Pri)";"School";0.59125;34.59985
+"B";"Bungoma";5;"Bungoma South";159;"B05159";"Bukembe";"Disp";0.60859;34.65469
+"B";"Bungoma";5;"Bungoma South";160;"B05160";"Nzoia Disp(Kongoli Pri)";"School";0.56808;34.65269
+"B";"Bungoma";5;"Bungoma South";161;"B05161";"Sikalame SA Pri";"School";0.51227;34.66259
+"B";"Bungoma";5;"Bungoma South";162;"B05162";"Mechimeru Disp";"Disp";0.50396;34.6517
+"B";"Bungoma";5;"Bungoma South";163;"B05163";"Fuchani FYM Pri";"School";0.46987;34.58592
+"B";"Bungoma";5;"Bungoma South";164;"B05164";"Dorofu Mkt";"Church";0.45322;34.61377
+"B";"Bungoma";5;"Bungoma South";165;"B05165";"Mwikhupo Pri";"School";0.43663;34.58592
+"B";"Bungoma";5;"Bungoma South";166;"B05166";"Mumbule";"Disp";0.48943;34.60796
+"B";"Bungoma";5;"Bungoma South";167;"B05167";"Mwibale Fath Church";"Church";0.48943;34.61125
+"B";"Bungoma";5;"Bungoma South";168;"B05168";"Sanga'lo SDA";"Church";0.51806;34.62751
+"B";"Bungoma";5;"Bungoma South";169;"B05169";"Ekitale";"Disp";0.55458;34.61257
+"B";"Bungoma";5;"Bungoma South";170;"B05170";"Kitale Pri";"School";0.57532;34.62751
+"B";"Bungoma";5;"Bungoma South";171;"B05171";"Ranje D.E.B";"School";0.55152;34.57678
+"B";"Bungoma";5;"Bungoma South";172;"B05172";"Bulondo";"Disp";0.48505;34.57432
+"B";"Bungoma";5;"Bungoma South";173;"B05173";"Namisi";"School";0.46386;34.55717
+"B";"Bungoma";5;"Bungoma South";174;"B05174";"Naburereiya";"School";0.50296;34.52466
+"B";"Bungoma";5;"Bungoma South";175;"B05175";"Vlm";"Disp";0.50295;34.55581
+"B";"Bungoma";5;"Bungoma South";176;"B05176";"Kabula";"Disp";0.48229;34.52919
+"B";"Bungoma";6;"Bungoma West";177;"B06177";"Sirisia";"SDH(CCC)";0.75516;34.50757
+"B";"Bungoma";6;"Bungoma West";178;"B06178";"Namutokholo";"School";0.7704;34.52997
+"B";"Bungoma";6;"Bungoma West";179;"B06179";"Chwele Friends";"Disp";0.76141;34.54932
+"B";"Bungoma";6;"Bungoma West";180;"B06180";"Kaptanai";"Disp";0.78656;34.53651
+"B";"Bungoma";6;"Bungoma West";181;"B06181";"Kasiamo";"School";0.75438;34.47705
+"B";"Bungoma";6;"Bungoma West";182;"B06182";"St Bonface";"Disp";0.77081;34.47782
+"B";"Bungoma";6;"Bungoma West";183;"B06183";"Machakha";"Disp";0.75569;34.43902
+"B";"Bungoma";6;"Bungoma West";184;"B06184";"Lwandanyi";"Disp";0.78941;34.41494
+"B";"Bungoma";6;"Bungoma West";185;"B06185";"Lwakhakha";"Disp";0.7891;34.37909
+"B";"Bungoma";6;"Bungoma West";186;"B06186";"Korosiendet";"Disp";0.7693;34.39324
+"B";"Bungoma";6;"Bungoma West";187;"B06187";"Tamlega";"Disp";0.70759;34.41199
+"B";"Bungoma";6;"Bungoma West";188;"B06188";"Malakisi";"H/C";0.68256;34.42072
+"B";"Bungoma";6;"Bungoma West";189;"B06189";"Bukokholo";"Disp";0.69581;34.46317
+"B";"Bungoma";6;"Bungoma West";190;"B06190";"Butonge";"Disp";0.71169;34.46959
+"B";"Bungoma";6;"Bungoma West";191;"B06191";"St Teresa Wokape";"Disp";0.70918;34.48659
+"B";"Bungoma";6;"Bungoma West";192;"B06192";"Bisunu Chief's Camp";"Chief's Camp";0.70911;34.50476
+"B";"Bungoma";6;"Bungoma West";193;"B06193";"Chwele";"H/C";0.73431;34.57791
+"B";"Bungoma";6;"Bungoma West";194;"B06194";"Chwele";"CCC";0.73406;34.57806
+"B";"Bungoma";6;"Bungoma West";195;"B06195";"Makhonge";"Church";0.76483;34.56799
+"B";"Bungoma";6;"Bungoma West";196;"B06196";"Mukuyuni";"Chief's Office";0.75816;34.60868
+"B";"Bungoma";6;"Bungoma West";197;"B06197";"Lukhome";"Disp";0.77458;34.60425
+"B";"Bungoma";6;"Bungoma West";198;"B06198";"Kimalewa";"H/C";0.78073;34.63977
+"B";"Bungoma";6;"Bungoma West";199;"B06199";"Sikulu";"Disp";0.75126;34.63263
+"B";"Bungoma";6;"Bungoma West";200;"B06200";"Chebukaka";"Disp";0.755;34.61455
+"B";"Bungoma";6;"Bungoma West";201;"B06201";"Madisi";"School";0.71731;34.62965
+"B";"Bungoma";6;"Bungoma West";202;"B06202";"Khachonge";"Disp";0.68494;34.62814
+"B";"Bungoma";6;"Bungoma West";203;"B06203";"Luuya";"Disp";0.65194;34.63839
+"B";"Bungoma";6;"Bungoma West";204;"B06204";"Mabanga";"Farmers Centre";0.59958;34.62122
+"B";"Bungoma";6;"Bungoma West";205;"B06205";"Ngalasia";"Disp";0.62662;34.61406
+"B";"Bungoma";6;"Bungoma West";206;"B06206";"Nalondo";"Disp";0.65533;34.58842
+"B";"Bungoma";6;"Bungoma West";207;"B06207";"Lwanda";"Disp";0.69473;34.60379
+"B";"Bungoma";6;"Bungoma West";208;"B06208";"Mukhweya";"Market-D.O's Ofc";0.67821;34.57662
+"B";"Bungoma";6;"Bungoma West";209;"B06209";"Kabuchai";"H/C";0.64632;34.55986
+"B";"Bungoma";6;"Bungoma West";210;"B06210";"Musokho";"School";0.64834;34.54081
+"B";"Bungoma";6;"Bungoma West";211;"B06211";"Luucho";"Disp";0.62687;34.55818
+"B";"Bungoma";6;"Bungoma West";212;"B06212";"Nangwe";"Church";0.60983;34.58255
+"B";"Bungoma";6;"Bungoma West";213;"B06213";"Sikusi";"Disp";0.69332;34.5579
+"B";"Bungoma";7;"Mt Elgon";214;"B07214";"Kamenjo";"Dispensary";"N00.85277";"E034.77174"
+"B";"Bungoma";7;"Mt Elgon";215;"B07215";"Kaborom";"Dispensary";"N00.86638";"E034.78542"
+"B";"Bungoma";7;"Mt Elgon";216;"B07216";"Kaptama";"Health Center";"N00.87918";"E034.77702"
+"B";"Bungoma";7;"Mt Elgon";217;"B07217";"Kaboywo";"Health Center";"N00.91243";"E034.76319"
+"B";"Bungoma";7;"Mt Elgon";218;"B07218";"Kaptalelio";"Dispensary";"N00.89057";"E034.74822"
+"B";"Bungoma";7;"Mt Elgon";219;"B07219";"Mt.Elgon D.H";"Hospital";"N00.84214";"E034.71422"
+"B";"Bungoma";7;"Mt Elgon";220;"B07220";"Kamuneru";"Dispensary";"N00.82261";"E034.63985"
+"B";"Bungoma";7;"Mt Elgon";221;"B07221";"Chepyuk";"Church";"N00.87348";"E034.58943"
+"B";"Bungoma";7;"Mt Elgon";222;"B07222";"Kopsiro ";"Health Center";"N00.82277";"E034.59030"
+"B";"Bungoma";7;"Mt Elgon";223;"B07223";"Kipsigon";"Health Center";"N00.83183";"E034.55984"
+"B";"Bungoma";7;"Mt Elgon";224;"B07224";"Ruanda";"Dispensary";"N00.82390";"E034.54397"
+"B";"Bungoma";7;"Mt Elgon";225;"B07225";"Chelebei";"Church";"N00.81258";"E034.55774"
+"B";"Bungoma";7;"Mt Elgon";226;"B07226";"Kapsambu";"Dispensary";"N00.80008";"E034.59409"
+"B";"Bungoma";7;"Mt Elgon";227;"B07227";"Tuikut";"Dispensary";"N00.81263";"E034.49839"
+"B";"Bungoma";7;"Mt Elgon";228;"B07228";"Kanganga";"Dispensary";"N00.83473";"E034.46462"
+"B";"Bungoma";7;"Mt Elgon";229;"B07229";"Chepkube ";"Dispensary";"N00.84009";"E034.43328"
+"B";"Bungoma";7;"Mt Elgon";230;"B07230";"Kimaswa";"Church";"N00.82265";"E034.45517"
+"B";"Bungoma";7;"Mt Elgon";231;"B07231";"Cheptais S.D.H";"Hospital";"N00.80289";"E034.46232"
+"B";"Bungoma";7;"Mt Elgon";232;"B07232";"Kapkota ";"Dispensary";"N00.79400";"E034.48336"
+"B";"Bungoma";7;"Mt Elgon";233;"B07233";"Chesikaki ";"Dispensary";"N00.79371";"E034.51192"
+"B";"Bungoma";7;"Mt Elgon";234;"B07234";"Kapkateny ";"Dispensary";"N00.80089";"E034.62329"
+"B";"Bungoma";7;"Mt Elgon";235;"B07235";"Sacha";"Dispensary";"N00.80338";"E034.64190"
+"B";"Bungoma";7;"Mt Elgon";236;"B07236";"Kamtiong";"Market";"N00.81155";"E034.70322"
+"B";"Bungoma";7;"Mt Elgon";237;"B07237";"Koshok";"Dispensary";"N00.83895";"E034.66057"
+"B";"Bungoma";7;"Mt Elgon";238;"B07238";"Mt.Elgon D.H";"Ccc";"N00.84200";"E034.71399"
+"B";"Bungoma";8;"Bugoma East";239;"B08239";"Webuye DH";"Hosp";0.61337;34.76523
+"B";"Bungoma";8;"Bugoma East";240;"B08240";"Webuye H/C";"H/C";0.61129;34.76781
+"B";"Bungoma";8;"Bugoma East";241;"B08241";"Panpaper Disp";"Disp";0.59104;34.77755
+"B";"Bungoma";8;"Bugoma East";242;"B08242";"Lugulu Mission";"Hosp";0.66143;34.75318
+"B";"Bungoma";8;"Bugoma East";243;"B08243";"Sipala";;0.64484;34.76529
+"B";"Bungoma";8;"Bugoma East";244;"B08244";"Mihuu Disp";"Disp";0.62555;34.79315
+"B";"Bungoma";8;"Bugoma East";245;"B08245";"Furoi";;0.61653;34.61624
+"B";"Bungoma";8;"Bugoma East";246;"B08246";"Lugusi";;0.65359;34.81343
+"B";"Bungoma";8;"Bugoma East";247;"B08247";"Sinoko";;0.69927;34.7914
+"B";"Bungoma";8;"Bugoma East";248;"B08248";"Khaoya";;0.72888;34.79807
+"B";"Bungoma";8;"Bugoma East";249;"B08249";"Ndivisi";;0.71292;34.81052
+"B";"Bungoma";8;"Bugoma East";250;"B08250";"Namwaya";;0.7203;34.75856
+"B";"Bungoma";8;"Bugoma East";251;"B08251";"Yasulwe";;0.74345;34.78216
+"B";"Bungoma";8;"Bugoma East";252;"B08252";"Mitukuyu";;0.6574;34.7799
+"B";"Bungoma";8;"Bugoma East";253;"B08253";"Matulo";;0.59802;34.74129
+"B";"Bungoma";8;"Bugoma East";254;"B08254";"Khalmuli";;0.57891;34.71385
+"B";"Bungoma";8;"Bugoma East";255;"B08255";"Yalusi";;0.54297;34.70497
+"B";"Bungoma";8;"Bugoma East";256;"B08256";"Mang'ana";;0.52223;34.68951
+"B";"Bungoma";8;"Bugoma East";257;"B08257";"Kuywa";;0.50164;34.68612
+"B";"Bungoma";8;"Bugoma East";258;"B08258";"Sitikho";;0.47461;34.65634
+"B";"Bungoma";8;"Bugoma East";259;"B08259";"Milo";;0.53258;34.72266
+"B";"Bungoma";8;"Bugoma East";260;"B08260";"Lurare";;0.56278;34.75363
+"B";"Bungoma";8;"Bugoma East";261;"B08261";"Nasaka";;0.63562;34.65865
+"B";"Bungoma";8;"Bugoma East";262;"B08262";"Mahanga";;0.68842;34.65303
+"B";"Bungoma";8;"Bugoma East";263;"B08263";"Bukoli SDH";;0.71047;34.66198
+"B";"Bungoma";8;"Bugoma East";264;"B08264";"Namilimo";;0.70445;34.67508
+"B";"Bungoma";8;"Bugoma East";265;"B08265";"Miendo Disp";;0.65231;34.69063
+"B";"Bungoma";8;"Bugoma East";266;"B08266";"Namawanga";;0.68079;34.70138
+"B";"Bungoma";8;"Bugoma East";267;"B08267";"Sirisia";;0.67874;34.71114
+"B";"Bungoma";8;"Bugoma East";268;"B08268";"Sirende";;0.72086;34.70016
+"B";"Bungoma";8;"Bugoma East";269;"B08269";"Mukhe";;0.71197;34.71495
+"B";"Bungoma";8;"Bugoma East";270;"B08270";"Makhese";;0.67686;34.74834
+"B";"Bungoma";8;"Bugoma East";271;"B08271";"Nabuyole";;0.61102;34.79096
+"B";"Bungoma";8;"Bugoma East";272;"B08272";"Kituni";;0.66334;34.72928
+"B";"Bungoma";8;"Bugoma East";273;"B08273";"Wamangoli";;0.62258;34.70758
+"B";"Bungoma";9;"Bungoma North";274;"B09274";"Kimilili District- Ccc";"Hospital";"N00.789170";"E034.712610"
+"B";"Bungoma";9;"Bungoma North";275;"B09275";"Kamasielo";"Polythecnic";"N00.810720";"E034.727950"
+"B";"Bungoma";9;"Bungoma North";276;"B09276";"Kamusinde (Rca)";"Church";"N00.813510";"E 034.741530"
+"B";"Bungoma";9;"Bungoma North";277;"B09277";"Nasusi";"Dispensary";"N00.817860";"E 034.758800"
+"B";"Bungoma";9;"Bungoma North";278;"B09278";"Namboani( Fym)";"School";"N00.841840";"E 034.760770"
+"B";"Bungoma";9;"Bungoma North";279;"B09279";"Maeni";"Dispensary";"N00.782200";"E 034.751810"
+"B";"Bungoma";9;"Bungoma North";280;"B09280";"Sikhendu Fym";"School";"N00.768490";"E 034.760340"
+"B";"Bungoma";9;"Bungoma North";281;"B09281";"Chebkwabi";"Polythecnic";"N00.797410";"E 034.667400"
+"B";"Bungoma";9;"Bungoma North";282;"B09282";"Nasianda (Kag)";"Church";"N00.761390";"E 034.674560"
+"B";"Bungoma";9;"Bungoma North";283;"B09283";"Bituyu";"Dispensary";"N00.743920";"E 034.699580"
+"B";"Bungoma";9;"Bungoma North";284;"B09284";"Kibingei";"Dispensary";"N00.741270";"E 034.672660"
+"B";"Bungoma";9;"Bungoma North";285;"B09285";"Kibingei Farmers";"Factory";"N00.737190";"E 034.687750"
+"B";"Bungoma";9;"Bungoma North";286;"B09286";"Salvation Army Hq";"Church";"N00.737190";"E 034.687750"
+"B";"Bungoma";9;"Bungoma North";287;"B09287";"Chelekei";"School";"N00.731490";"E 034.734360"
+"B";"Bungoma";9;"Bungoma North";288;"B09288";"Bahai";"Dispensary";"N00.738940";"E 034.749280"
+"B";"Bungoma";9;"Bungoma North";289;"B09289";"Matili Rc";"School";"N00.759690";"E 034.741110"
+"B";"Bungoma";9;"Bungoma North";290;"B09290";"Nakalira (Ctholic)";"Church";"N00.760100";"E034.804970"
+"B";"Bungoma";9;"Bungoma North";291;"B09291";"Makhonge";"Health Centre";"N00.821240";"E034.796980"
+"B";"Bungoma";9;"Bungoma North";292;"B09292";"Kamukuywa Proposed";"Dispensary";"N00.780330";"E034.790000"
+"B";"Bungoma";9;"Bungoma North";293;"B09293";"Dreamland";"Medical Centre";"N00.807920";"E034.696750"
+"B";"Bungoma";9;"Bungoma North";294;"B09294";"Khuiroro";"School";"N00.794260";"E034.688840"
+"B";"Bungoma";9;"Bungoma North";295;"B09295";"Naitiri  Sdh  Ccc";"Hospital";"N00.756100";"E034.891090"
+"B";"Bungoma";9;"Bungoma North";296;"B09296";"Kibisi";"Dispensary";"N00.697230";"E034.862840"
+"B";"Bungoma";9;"Bungoma North";297;"B09297";"Karima";"Dispensary";"N00.725580";"E034.855860"
+"B";"Bungoma";9;"Bungoma North";298;"B09298";"Soteni";"Dispensary";"N00.732070";"E034.872060"
+"B";"Bungoma";9;"Bungoma North";299;"B09299";"Pwani";"Dispensary";"N00.697470";"E034.901990"
+"B";"Bungoma";9;"Bungoma North";300;"B09300";"Sirakaru";"Dispensary";"N00.725760";"E034.897220"
+"B";"Bungoma";9;"Bungoma North";301;"B09301";"Sango Kabuyefwe";"Dispensary";"N00.752950";"E034.925670"
+"B";"Bungoma";9;"Bungoma North";302;"B09302";"Lungai";"Dispensary";"N00.779490";"E034.898460"
+"B";"Bungoma";9;"Bungoma North";303;"B09303";"Makhanga";"Dispensary";"N00.808060";"E034.887880"
+"B";"Bungoma";9;"Bungoma North";304;"B09304";"Sango Naitiri";"Dispensary";"N00.832090";"E034.910340"
+"B";"Bungoma";9;"Bungoma North";305;"B09305";"Tabani";"Dispensary";"N00.848660";"E034.943530"
+"B";"Bungoma";9;"Bungoma North";306;"B09306";"Minyali  Ack";"Church";"N00.871380";"E034.966720"
+"B";"Bungoma";9;"Bungoma North";307;"B09307";"Ndalu";"Health Centre";"N00.843190";"E034.993190"
+"B";"Bungoma";9;"Bungoma North";308;"B09308";"Misanga  Fym";"Church";"N00.804100";"E035.023730"
+"B";"Bungoma";9;"Bungoma North";309;"B09309";"Makutano";"Dispensary";"N00.786760";"E035.036940"
+"B";"Bungoma";9;"Bungoma North";310;"B09310";"Maresi  Fym";"Church";"N00.751370";"E035.022340"
+"B";"Bungoma";9;"Bungoma North";311;"B09311";"Soysambu  Pag";"Church";"N00.765450";"E035.003550"
+"B";"Bungoma";9;"Bungoma North";312;"B09312";"Ack  Soysambu";"Dispensary";"N00.765400";"E035.003490"
+"B";"Bungoma";9;"Bungoma North";313;"B09313";"Tongaren";"Health Centre";"N00.774000";"E034.968250"
+"B";"Bungoma";9;"Bungoma North";314;"B09314";"Lukhuna";"Dispensary";"N00.801160";"E034.938140"
+"B";"Bungoma";9;"Bungoma North";315;"B09315";"Makhonge  Pefa";"Church";"N00.770870";"E034.939930"
+"B";"Bungoma";9;"Bungoma North";316;"B09316";"Makunga   Pag";"Church";"N00.733010";"E034.832130"
+"B";"Bungoma";9;"Bungoma North";317;"B09317";"Ack Kamukuywa";"Dispensary";"N00.766400";"E034.831430"
+"B";"Bungoma";9;"Bungoma North";318;"B09318";"Lukhokhwe  Fym";"Church";"N00.797430";"E034.842410"
+"B";"Bungoma";9;"Bungoma North";319;"B09319";"Wabukhonyi  Rc";"Church";"N00.803070";"E034.866680"
+"C";"Kakamega";10;"Mumias";320;"C10320";"DMOH's Office";"DMOH's Office";0.3393;34.49034
+"C";"Kakamega";10;"Mumias";321;"C10321";"Khaunga Disp";"Disp";0.37689;34.58406
+"C";"Kakamega";10;"Mumias";322;"C10322";"Mahola Pri";"School";0.3834;34.56939
+"C";"Kakamega";10;"Mumias";323;"C10323";"Malaha Disp";"Disp";0.3553;34.61364
+"C";"Kakamega";10;"Mumias";324;"C10324";"Muganga Disp";"Disp";0.34654;34.57866
+"C";"Kakamega";10;"Mumias";325;"C10325";"Nyaporo Disp";"Disp";0.32964;34.62579
+"C";"Kakamega";10;"Mumias";326;"C10326";"Makunga RHDC";"H/C";0.3028;34.62354
+"C";"Kakamega";10;"Mumias";327;"C10327";"Eluche Clinic";"Clinic";0.32895;34.54213
+"C";"Kakamega";10;"Mumias";328;"C10328";"Khabakaya Pri";"School";0.33091;34.56214
+"C";"Kakamega";10;"Mumias";329;"C10329";"Shianda Baptist Clinic";"Clinic";0.31585;34.57634
+"C";"Kakamega";10;"Mumias";330;"C10330";"Mutono Pri";"School";0.27866;34.58923
+"C";"Kakamega";10;"Mumias";331;"C10331";"Elwasambi Disp";"Disp";0.28896;34.56793
+"C";"Kakamega";10;"Mumias";332;"C10332";"Bumwende Pri";"School";0.28098;34.54721
+"C";"Kakamega";10;"Mumias";333;"C10333";"Lushea H/C";"H/C";0.30451;34.53601
+"C";"Kakamega";10;"Mumias";334;"C10334";"Mumias Disp";"Disp";0.33442;34.48047
+"C";"Kakamega";10;"Mumias";335;"C10335";"Shikalame Disp";"Disp";0.25698;34.46379
+"C";"Kakamega";10;"Mumias";336;"C10336";"Eshihaka Pri";"School";0.21576;34.46443
+"C";"Kakamega";10;"Mumias";337;"C10337";"Musanda Pri";"School";0.21977;34.44902
+"C";"Kakamega";10;"Mumias";338;"C10338";"Bungasi H/C";"H/C";0.1996;34.39122
+"C";"Kakamega";10;"Mumias";339;"C10339";"Lukongo Pri";"School";0.23512;34.40754
+"C";"Kakamega";10;"Mumias";340;"C10340";"Wang'nyang Pri";"School";0.26749;34.3997
+"C";"Kakamega";10;"Mumias";341;"C10341";"Bukaya H/C";"H/C";0.26;34.44939
+"C";"Kakamega";10;"Mumias";342;"C10342";"Otiato Sch";"School";0.2753;34.44086
+"C";"Kakamega";10;"Mumias";343;"C10343";"Shikulu Community H/C";"H/C";0.30173;34.43927
+"C";"Kakamega";10;"Mumias";344;"C10344";"Emuchimi Disp";"Disp";0.32817;34.45175
+"C";"Kakamega";10;"Mumias";345;"C10345";"Ebubaka Pri";"School";0.31819;34.41966
+"C";"Kakamega";10;"Mumias";346;"C10346";"Kamasha Pri";"School";0.29325;34.50679
+"C";"Kakamega";10;"Mumias";347;"C10347";"Ichinga Pri";"School";0.33794;34.50567
+"C";"Kakamega";10;"Mumias";348;"C10348";"Shibale Pri";"School";0.36268;34.48473
+"C";"Kakamega";10;"Mumias";349;"C10349";"Musco";"Disp";0.35916;34.49263
+"C";"Kakamega";10;"Mumias";350;"C10350";"St Marys Hosp";"Hosp";0.32696;34.49897
+"C";"Kakamega";10;"Mumias";351;"C10351";"Enyaporo Disp";"Disp";0.31952;34.4902
+"C";"Kakamega";10;"Mumias";352;"C10352";"Mayoni Pri";"School";0.3789;34.4888
+"C";"Kakamega";10;"Mumias";353;"C10353";"Mwira Pri";"School";0.36509;34.44956
+"C";"Kakamega";10;"Mumias";354;"C10354";"Indangalasia Disp";"Disp";0.31675;34.39497
+"C";"Kakamega";10;"Mumias";355;"C10355";"Mungungu Disp";"Disp";0.39909;34.41037
+"C";"Kakamega";10;"Mumias";356;"C10356";"Lubanga Pri";"School";0.41234;34.36768
+"C";"Kakamega";10;"Mumias";357;"C10357";"Lunganyiro Disp";"Disp";0.43262;34.39246
+"C";"Kakamega";10;"Mumias";358;"C10358";"St Paul Ejinja Disp";"Disp";0.40245;34.44805
+"C";"Kakamega";10;"Mumias";359;"C10359";"Matungu SDH";"Hosp";0.38792;34.47634
+"C";"Kakamega";10;"Mumias";360;"C10360";"Namulungu Disp";"Disp";0.45113;34.46247
+"C";"Kakamega";10;"Mumias";361;"C10361";"Mukhweya Pri";"School";0.46117;34.48918
+"C";"Kakamega";10;"Mumias";362;"C10362";"Khalaba H/C";"H/C";0.42734;34.54832
+"C";"Kakamega";10;"Mumias";363;"C10363";"Namamba Pri";"School";0.44425;34.55601
+"C";"Kakamega";10;"Mumias";364;"C10364";"Bulimbo Mission";"Church";0.44059;34.51208
+"C";"Kakamega";10;"Mumias";365;"C10365";"Khabukhoshe Pri";"School";0.42609;34.51217
+"C";"Kakamega";10;"Mumias";366;"C10366";"Mirere H/C";"H/C";0.45476;34.42783
+"C";"Kakamega";10;"Mumias";367;"C10367";"Shibanze Disp";"Disp";0.4107;34.52447
+"C";"Kakamega";11;"Kakamega Central";368;"C11368";"Approved Disp";"Disp";0.29318;34.76131
+"C";"Kakamega";11;"Kakamega Central";369;"C11369";"Sichirai Market";"Market";0.30242;34.76328
+"C";"Kakamega";11;"Kakamega Central";370;"C11370";"Pgh-Kak";"Hosp";0.27432;34.7606
+"C";"Kakamega";11;"Kakamega Central";371;"C11371";"Shitao Pri";"School";0.26056;34.75172
+"C";"Kakamega";11;"Kakamega Central";372;"C11372";"Chief's Camp Bukhungu";"Camp";0.26056;34.75172
+"C";"Kakamega";11;"Kakamega Central";373;"C11373";"Maraba Pri";"School";0.29522;34.74433
+"C";"Kakamega";11;"Kakamega Central";374;"C11374";"Nabongo Pri";"School";0.28451;34.74539
+"C";"Kakamega";11;"Kakamega Central";375;"C11375";"Rosterman Field";;0.26358;34.72922
+"C";"Kakamega";11;"Kakamega Central";376;"C11376";"Ikonyero Disp";"Disp";0.28084;34.72538
+"C";"Kakamega";11;"Kakamega Central";377;"C11377";"Elwesero Disp";"Disp";0.2652;34.71645
+"C";"Kakamega";11;"Kakamega Central";378;"C11378";"Ibinzo Pri";"School";0.25625;34.68779
+"C";"Kakamega";11;"Kakamega Central";379;"C11379";"Eshisiru D.O's Office";;0.2812;34.67367
+"C";"Kakamega";11;"Kakamega Central";380;"C11380";"Emusanda Disp";"Disp";0.29307;34.64707
+"C";"Kakamega";11;"Kakamega Central";381;"C11381";"Emusala Church";"Church";0.32971;34.78043
+"C";"Kakamega";11;"Kakamega Central";382;"C11382";"Emukaba Pri";"School";0.34166;34.76309
+"C";"Kakamega";11;"Kakamega Central";383;"C11383";"Ematiah Disp";"Disp";0.36153;34.76605
+"C";"Kakamega";11;"Kakamega Central";384;"C11384";"Bushiri Church";"Church";0.36504;34.72916
+"C";"Kakamega";11;"Kakamega Central";385;"C11385";"Ingotse Pri";"School";0.3555;34.698
+"C";"Kakamega";11;"Kakamega Central";386;"C11386";"Shinoyi(Mukangu Mkt)";"Market";0.34535;34.666
+"C";"Kakamega";11;"Kakamega Central";387;"C11387";"Shikomari(Nangabo Mkt)";"Market";0.32106;34.64455
+"C";"Kakamega";11;"Kakamega Central";388;"C11388";"Eshiongo Disp";"Disp";0.31418;34.69385
+"C";"Kakamega";11;"Kakamega Central";389;"C11389";"Esumeiya";;0.31844;34.682
+"C";"Kakamega";11;"Kakamega Central";390;"C11390";"Eshikhuyu Disp";"Disp";0.26474;34.65593
+"C";"Kakamega";11;"Kakamega Central";391;"C11391";"Isumba Disp";"Disp";0.24222;34.63961
+"C";"Kakamega";11;"Kakamega Central";392;"C11392";"Mwiyenga ACK Church";"Church";0.20583;34.6342
+"C";"Kakamega";11;"Kakamega Central";393;"C11393";"Buikulima SA Church";"Church";0.19314;34.6135
+"C";"Kakamega";11;"Kakamega Central";394;"C11394";"Ekapwonje Pri";"School";0.21665;34.61435
+"C";"Kakamega";11;"Kakamega Central";395;"C11395";"Eshanda Church";"Church";0.23147;34.62019
+"C";"Kakamega";11;"Kakamega Central";396;"C11396";"Eshirembe Disp";"Disp";0.25437;34.62122
+"C";"Kakamega";11;"Kakamega Central";397;"C11397";"Ematsayi Pri";"School";0.2785;34.62142
+"C";"Kakamega";11;"Kakamega Central";398;"C11398";"Shiyunzu Pri";"School";0.29079;34.70321
+"C";"Kakamega";11;"Kakamega Central";399;"C11399";"Ejinja Friends";"Church";0.28118;34.71179
+"C";"Kakamega";11;"Kakamega Central";400;"C11400";"Elukho Pri";"School";0.32288;34.75654
+"C";"Kakamega";11;"Kakamega Central";401;"C11401";"Emukoyani";;0.32179;34.74984
+"C";"Kakamega";11;"Kakamega Central";402;"C11402";"Emurumba Disp";"Disp";0.30323;34.72617
+"C";"Kakamega";11;"Kakamega Central";403;"C11403";"Shikoti Chief's Camp";"Camp";0.31776;34.73584
+"C";"Kakamega";11;"Kakamega Central";404;"C11404";"Ebushibo PAG";"Church";0.30625;34.68554
+"C";"Kakamega";11;"Kakamega Central";405;"C11405";"Lusumu Pri";"School";0.36506;34.64702
+"C";"Kakamega";11;"Kakamega Central";406;"C11406";"Nderema Pri";"School";0.3631;34.62919
+"C";"Kakamega";11;"Kakamega Central";407;"C11407";"Busangavia Mkt";"Market";0.36377;34.66127
+"C";"Kakamega";11;"Kakamega Central";408;"C11408";"Kisembe Pri";"School";0.40047;34.64291
+"C";"Kakamega";11;"Kakamega Central";409;"C11409";"Matoi Disp";"Disp";0.36881;34.71162
+"C";"Kakamega";11;"Kakamega Central";410;"C11410";"Budonga Disp";"Disp";0.39812;34.61023
+"C";"Kakamega";11;"Kakamega Central";411;"C11411";"Sisokhe Disp";"Disp";0.43303;34.61184
+"C";"Kakamega";11;"Kakamega Central";412;"C11412";"Kharanda Disp";"Disp";0.44146;34.63681
+"C";"Kakamega";11;"Kakamega Central";413;"C11413";"Buchangu Disp";"Disp";0.44564;34.67083
+"C";"Kakamega";11;"Kakamega Central";414;"C11414";"Sivilie Disp";"Disp";0.46955;34.69675
+"C";"Kakamega";11;"Kakamega Central";415;"C11415";"Lutaso Disp";"Disp";0.44406;34.71081
+"C";"Kakamega";11;"Kakamega Central";416;"C11416";"Chekata Disp";"Disp";0.46721;34.72059
+"C";"Kakamega";11;"Kakamega Central";417;"C11417";"Siombe Pri";"School";0.44188;34.68508
+"C";"Kakamega";11;"Kakamega Central";418;"C11418";"Navakholo SDH";"Hosp";0.41373;34.68229
+"C";"Kakamega";11;"Kakamega Central";419;"C11419";"Namakoye Mkt";"Market";0.42095;34.64723
+"C";"Kakamega";11;"Kakamega Central";420;"C11420";"Nambacha Pri";"School";0.39339;34.66729
+"C";"Kakamega";12;"Kakamega North";421;"C12421";"Chebwai";"Disp";0.49625;34.83288
+"C";"Kakamega";12;"Kakamega North";422;"C12422";"Namagara";"Disp";0.50423;34.87856
+"C";"Kakamega";12;"Kakamega North";423;"C12423";"Cheptuli";"Church";0.50517;34.86676
+"C";"Kakamega";12;"Kakamega North";424;"C12424";"Makuche";"Church";0.5149;34.79284
+"C";"Kakamega";12;"Kakamega North";425;"C12425";"Chugulo";"Disp";0.50131;34.78129
+"C";"Kakamega";12;"Kakamega North";426;"C12426";"Matsakha";"Church";0.52555;34.81602
+"C";"Kakamega";12;"Kakamega North";427;"C12427";"Shivanga";"Disp";0.53215;34.84648
+"C";"Kakamega";12;"Kakamega North";428;"C12428";"Chimoi";"H/C";0.57258;3483079
+"C";"Kakamega";12;"Kakamega North";429;"C12429";"Manda";"Disp";0.5719;34.86294
+"C";"Kakamega";12;"Kakamega North";430;"C12430";"Tumbeni ";"School";0.4305;34.86858
+"C";"Kakamega";12;"Kakamega North";431;"C12431";"Kimanget";"Disp";0.43172;34.91015
+"C";"Kakamega";12;"Kakamega North";432;"C12432";"Ikoli";"School";0.39296;34.94145
+"C";"Kakamega";12;"Kakamega North";433;"C12433";"Kuvasali";"H/C";0.42101;34.94334
+"C";"Kakamega";12;"Kakamega North";434;"C12434";"Chimoroni";"School";0.45461;34.9094
+"C";"Kakamega";12;"Kakamega North";435;"C12435";"Shipala";"School";0.47004;34.81436
+"C";"Kakamega";12;"Kakamega North";436;"C12436";"Malekha";"Disp";0.44784;34.79565
+"C";"Kakamega";12;"Kakamega North";437;"C12437";"Shirugu";"School";0.46216;34.79028
+"C";"Kakamega";12;"Kakamega North";438;"C12438";"Chombeli";"H/C";0.45627;34.75185
+"C";"Kakamega";12;"Kakamega North";439;"C12439";"Malava";"DH";0.44884;34.854
+"C";"Kakamega";12;"Kakamega North";440;"C12440";"Mugai";"Disp";0.43177;34.80751
+"C";"Kakamega";12;"Kakamega North";441;"C12441";"Shamberere";"Disp";0.37706;34.84219
+"C";"Kakamega";12;"Kakamega North";442;"C12442";"Shihome";"Disp";0.39126;34.79236
+"C";"Kakamega";12;"Kakamega North";443;"C12443";"Chevoso";"Disp";0.36584;34.81232
+"C";"Kakamega";12;"Kakamega North";444;"C12444";"Mahira";"Church";0.40324;34.80492
+"C";"Kakamega";12;"Kakamega North";445;"C12445";"Muting'ong'o";"Disp";0.40486;34.82211
+"C";"Kakamega";12;"Kakamega North";446;"C12446";"Ifwetere";"School";0.3488;34.79007
+"C";"Kakamega";12;"Kakamega North";447;"C12447";"Shivakala";"Church";0.36788;34.77733
+"C";"Kakamega";12;"Kakamega North";448;"C12448";"Burundo";"Church";0.44069;34.75456
+"C";"Kakamega";12;"Kakamega North";449;"C12449";"Sawawa";"Market";0.41775;34.75393
+"C";"Kakamega";12;"Kakamega North";450;"C12450";"Mukume";"Church";0.38991;34.75287
+"C";"Kakamega";12;"Kakamega North";451;"C12451";"Imbiakalo";"Disp";0.41036;34.75269
+"C";"Kakamega";13;"Lugari";452;"C13452";"Lumakanda DH";"Hosp";0.6347;34.97607
+"C";"Kakamega";13;"Lugari";453;"C13453";"Nys Turbo";"Disp";0.64221;35.04925
+"C";"Kakamega";13;"Lugari";454;"C13454";"Mautuma SDH";"Hosp";0.72477;34.98162
+"C";"Kakamega";13;"Lugari";455;"C13455";"Mbagara Disp";"Disp";0.72579;35.00849
+"C";"Kakamega";13;"Lugari";456;"C13456";"Mukuyu Disp";"Disp";0.73266;34.94977
+"C";"Kakamega";13;"Lugari";457;"C13457";"Marakusi Disp";"Disp";0.69831;34.95222
+"C";"Kakamega";13;"Lugari";458;"C13458";"Lugari Forest";"Disp";0.66103;34.90762
+"C";"Kakamega";13;"Lugari";459;"C13459";"Lunyito Disp";"Disp";0.67356;34.8755
+"C";"Kakamega";13;"Lugari";460;"C13460";"Mapengo Disp";"Disp";0.64819;34.85999
+"C";"Kakamega";13;"Lugari";461;"C13461";"Mahanga Disp";"Disp";0.63416;34.8521
+"C";"Kakamega";13;"Lugari";462;"C13462";"Koromati Disp";"Disp";0.62793;34.88428
+"C";"Kakamega";13;"Lugari";463;"C13463";"Chekalini H/C";"H/C";0.6193;34.89858
+"C";"Kakamega";13;"Lugari";464;"C13464";"Musembe Disp";"Disp";0.61927;34.93005
+"C";"Kakamega";13;"Lugari";465;"C13465";"Turbo Forest";"Disp";0.6356;35.06246
+"C";"Kakamega";13;"Lugari";466;"C13466";"Seregeya Disp";"Disp";0.66377;35.10743
+"C";"Kakamega";13;"Lugari";467;"C13467";"Likuyani SDH";"Hosp";0.71083;35.10712
+"C";"Kakamega";13;"Lugari";468;"C13468";"Sango Disp";"Disp";0.72898;35.07297
+"C";"Kakamega";13;"Lugari";469;"C13469";"Lugulu Chiefs Camp";"Chiefs Camp";0.76762;35.07803
+"C";"Kakamega";13;"Lugari";470;"C13470";"Soysambu Disp";"Disp";0.77718;35.10485
+"C";"Kakamega";13;"Lugari";471;"C13471";"Kongoni H/C";"H/C";0.78308;35.13105
+"C";"Kakamega";13;"Lugari";472;"C13472";"Matunda SDH";"Hosp";0.82557;35.11538
+"C";"Kakamega";13;"Lugari";473;"C13473";"Mabusi H/C";"H/C";0.83425;35.0805
+"C";"Kakamega";13;"Lugari";474;"C13474";"Sinoko Disp";"Disp";0.86797;35.07627
+"C";"Kakamega";13;"Lugari";475;"C13475";"Moi's Bridge N.Home";"Maternity Home";0.88089;35.1188
+"C";"Kakamega";13;"Lugari";476;"C13476";"Majengo Disp";"Disp";0.64857;35.00085
+"C";"Kakamega";13;"Lugari";477;"C13477";"Munyuki Disp";"Disp";0.63492;34.9393
+"C";"Kakamega";13;"Lugari";478;"C13478";"Maturu Disp";"Disp";0.60592;34.86652
+"C";"Kakamega";13;"Lugari";479;"C13479";"Nzoia Matete";"Disp";0.60391;34.81742
+"C";"Kakamega";13;"Lugari";480;"C13480";"Matete H/C";"H/C";0.56511;34.80562
+"C";"Kakamega";13;"Lugari";481;"C13481";"Nambilima";"School";0.51813;34.74989
+"C";"Kakamega";13;"Lugari";482;"C13482";"Lumani";"Disp";0.48967;34.72386
+"C";"Kakamega";13;"Lugari";483;"C13483";"Marukusi";"School";0.5408;34.78721
+"C";"Kakamega";13;"Lugari";484;"C13484";"Mbajo";"School";0.61086;34.94933
+"C";"Kakamega";13;"Lugari";485;"C13485";"Mahemas";"School";0.67364;34.96615
+"C";"Kakamega";13;"Lugari";486;"C13486";"Lwanda Lugari";"School";0.67661;34.97843
+"C";"Kakamega";13;"Lugari";487;"C13487";"Ivona East";"School";0.73762;34.99887
+"C";"Kakamega";13;"Lugari";488;"C13488";"Lukusi";"School";0.71371;35.0635
+"C";"Kakamega";13;"Lugari";489;"C13489";"Nasianda";"School";0.75087;35.11192
+"C";"Kakamega";13;"Lugari";490;"C13490";"Lumino";"Disp";0.71044;35.15073
+"C";"Kakamega";13;"Lugari";491;"C13491";"Aligula";"School";0.66556;35.14243
+"C";"Kakamega";13;"Lugari";492;"C13492";"Moi's Bridge Pri";"School";0.85897;35.09852
+"C";"Kakamega";13;"Lugari";493;"C13493";"Binyenya Friends ";"Church";0.808813;35.06635
+"C";"Kakamega";13;"Lugari";494;"C13494";"Mwamba Pri";"School";0.62757;35.024
+"C";"Kakamega";13;"Lugari";495;"C13495";"St Andrews Orthodox";"Church";0.71887;34.94397
+"C";"Kakamega";13;"Lugari";496;"C13496";"St Marys";"Disp";0.70797;35.0091
+"C";"Kakamega";14;"Kakamega";497;"C14497";"Mwihila";"Mission Hosp";0.17773;34.61393
+"C";"Kakamega";14;"Kakamega";498;"C14498";"Mwitseshe";"Disp";0.18471;34.64361
+"C";"Kakamega";14;"Kakamega";499;"C14499";"Ikomero";"Disp";0.15182;34.50088
+"C";"Kakamega";14;"Kakamega";500;"C14500";"Emalindi";"H/C";0.13171;34.61713
+"C";"Kakamega";14;"Kakamega";501;"C14501";"Mundobelwa";"Disp";0.15724;34.61293
+"C";"Kakamega";14;"Kakamega";502;"C14502";"Munyanza";"MNH";0.1838;34.5871
+"C";"Kakamega";14;"Kakamega";503;"C14503";"Emulunya";"School";0.14479;34.65527
+"C";"Kakamega";14;"Kakamega";504;"C14504";"Munjiti";"School";0.13524;34.67556
+"C";"Kakamega";14;"Kakamega";505;"C14505";"Ituti";"Rotary Post";0.24431;34.58141
+"C";"Kakamega";14;"Kakamega";506;"C14506";"Eshitari";"School";0.2544;34.60285
+"C";"Kakamega";14;"Kakamega";507;"C14507";"Maondo";"School";0.19087;34.44404
+"C";"Kakamega";14;"Kakamega";508;"C14508";"Shatsala";"School";0.17491;34.47796
+"C";"Kakamega";14;"Kakamega";509;"C14509";"Butere";"DH";0.20864;34.4935
+"C";"Kakamega";14;"Kakamega";510;"C14510";"Manyala";"SDH";0.16099;34.45242
+"C";"Kakamega";14;"Kakamega";511;"C14511";"Shitsiswi";"H/C";0.26325;34.50429
+"C";"Kakamega";14;"Kakamega";512;"C14512";"Shisaba";"Disp";0.23723;34.54687
+"C";"Kakamega";14;"Kakamega";513;"C14513";"Shimkoko";"H/C";0.21534;34.56581
+"C";"Kakamega";14;"Kakamega";514;"C14514";"Shiraha";"H/C";0.1968;34.57071
+"C";"Kakamega";14;"Kakamega";515;"C14515";"Shikunga";"H/C";0.18262;34.53882
+"C";"Kakamega";14;"Kakamega";516;"C14516";"Lukohe";"H/C";0.19687;34.59984
+"C";"Kakamega";14;"Kakamega";517;"C14517";"Mabole";"H/C";0.18594;34.50627
+"C";"Kakamega";14;"Kakamega";518;"C14518";"Masaba";"Disp";0.19358;34.46411
+"C";"Kakamega";14;"Kakamega";519;"C14519";"Iranda";"H/C";0.2442;34.59647
+"C";"Kakamega";14;"Kakamega";520;"C14520";"Eshibimbi";"H/C";0.2109;34.59632
+"C";"Kakamega";14;"Kakamega";521;"C14521";"Imanga";"H/C";0.27533;34.47337
+"C";"Kakamega";14;"Kakamega";522;"C14522";"Shibuche";"School";0.26171;34.48226
+"C";"Kakamega";14;"Kakamega";523;"C14523";"Ebukhokolo";"School";0.15993;34.4804
+"C";"Kakamega";14;"Kakamega";524;"C14524";"Emutsetsa";"Disp";0.16373;34.53021
+"C";"Kakamega";14;"Kakamega";525;"C14525";"Namasoli";"H/C";0.14439;34.5289
+"C";"Kakamega";14;"Kakamega";526;"C14526";"Muhaka";"Disp";0.12284;34.48392
+"C";"Kakamega";14;"Kakamega";527;"C14527";"Walmar";"Med Clinic";0.09897;34.55602
+"C";"Kakamega";14;"Kakamega";528;"C14528";"Mundoli";"H/C";0.10941;34.57752
+"C";"Kakamega";14;"Kakamega";529;"C14529";"Mulwanda";"Disp";0.14346;34.56704
+"C";"Kakamega";14;"Kakamega";530;"C14530";"Khwisero";"H/C";0.16848;34.59602
+"C";"Kakamega";14;"Kakamega";531;"C14531";"Elwangale";"H/C";0.15556;34.67379
+"C";"Kakamega";14;"Kakamega";532;"C14532";"Eshinutsa";"H/C";0.14706;34.63511
+"C";"Kakamega";14;"Kakamega";533;"C14533";"Sonak";"Med Centre";0.17242;34.59256
+"C";"Kakamega";15;"Kakamega South";534;"C15534";"Shikokho Friends";"Church";0.1802;34.72015
+"C";"Kakamega";15;"Kakamega South";535;"C15535";"Shikondi Pri";"School";0.1876;34.75921
+"C";"Kakamega";15;"Kakamega South";536;"C15536";"Ichina Pri ";"School";0.21122;34.70567
+"C";"Kakamega";15;"Kakamega South";537;"C15537";"Shihalia Disp";"Disp";0.17724;34.69844
+"C";"Kakamega";15;"Kakamega South";538;"C15538";"Shichinji Pri";"School";0.20921;34.68661
+"C";"Kakamega";15;"Kakamega South";539;"C15539";"Bushiangala ";"H/C";0.18727;34.68391
+"C";"Kakamega";15;"Kakamega South";540;"C15540";"St Pius Musoli";"H/C";0.20518;34.66434
+"C";"Kakamega";15;"Kakamega South";541;"C15541";"Mutaho Pri";"School";0.22265;34.67008
+"C";"Kakamega";15;"Kakamega South";542;"C15542";"Murudefu Pri";"School";0.18627;34.65159
+"C";"Kakamega";15;"Kakamega South";543;"C15543";"Imuchenje Church";"Church";0.21236;34.64397
+"C";"Kakamega";15;"Kakamega South";544;"C15544";"Imbale Pri";"School";0.22438;34.63565
+"C";"Kakamega";15;"Kakamega South";545;"C15545";"Imulama Disp";"Disp";0.23991;34.67027
+"C";"Kakamega";15;"Kakamega South";546;"C15546";"Shimanyiro Friends";"Church";0.25424;34.68836
+"C";"Kakamega";15;"Kakamega South";547;"C15547";"Shiseso";"H/C";0.2314;34.7038
+"C";"Kakamega";15;"Kakamega South";548;"C15548";"Iguhu DH";"CCC";0.16324;34.74604
+"C";"Kakamega";15;"Kakamega South";549;"C15549";"Masyenze Pri";"School";0.1797;34.76703
+"C";"Kakamega";15;"Kakamega South";550;"C15550";"Savane Disp";"Disp";0.1718;34.78982
+"C";"Kakamega";15;"Kakamega South";551;"C15551";"Naliava Pri";"School";0.15849;34.79206
+"C";"Kakamega";15;"Kakamega South";552;"C15552";"Shianjetso Pri";"School";0.15322;34.73212
+"C";"Kakamega";15;"Kakamega South";553;"C15553";"Madivini Friends";"Church";0.14293;34.70736
+"C";"Kakamega";15;"Kakamega South";554;"C15554";"Kaluni Pri";"School";0.13628;34.69807
+"C";"Kakamega";15;"Kakamega South";555;"C15555";"Kilingili H/C";"CCC";0.12419;34.68086
+"C";"Kakamega";15;"Kakamega South";556;"C15556";"Lwanaswa Pri";"School";0.13837;34.68436
+"C";"Kakamega";15;"Kakamega South";557;"C15557";"Iregi H/C";"H/C";0.15436;34.70259
+"C";"Kakamega";15;"Kakamega South";558;"C15558";"Imalaba Disp";"Disp";0.16252;34.68581
+"C";"Kakamega";15;"Kakamega South";559;"C15559";"Itulubini Pri";"School";0.16649;34.69729
+"C";"Kakamega";15;"Kakamega South";560;"C15560";"Ikhulili Pri";"School";0.16204;34.7153
+"C";"Kakamega";15;"Kakamega South";561;"C15561";"Shibwe SDH";"CCC";0.20565;34.72319
+"D";"Vihiga";17;"Eumhaya";589;"D17589";"Ebusiekwe Ebukoolo Ack";"Church";0.07111;34.56529
+"D";"Vihiga";17;"Eumhaya";590;"D17590";"Ebukanga Isanda Pri";"School";0.10884;34.60453
+"D";"Vihiga";17;"Eumhaya";591;"D17591";"Emusire High Sch";"School";0.07935;34.60774
+"D";"Vihiga";17;"Eumhaya";592;"D17592";"Essaba C.O.G";"School";0.04414;34.59134
+"D";"Vihiga";17;"Eumhaya";593;"D17593";"Ebukhaya Emabuye C.O.G";"Church";0.07474;34.61984
+"D";"Vihiga";17;"Eumhaya";594;"D17594";"Emanyinyia Sec";"Church";0.09576;34.61639
+"D";"Vihiga";17;"Eumhaya";595;"D17595";"Ematsuli Pri";"School";0.11358;34.63265
+"D";"Vihiga";17;"Eumhaya";596;"D17596";"Emurembe Pri";"School";0.11104;34.67414
+"D";"Vihiga";17;"Eumhaya";597;"D17597";"Munungu C.O.G";"School";0.11599;34.65952
+"D";"Vihiga";17;"Eumhaya";598;"D17598";"Ebunangwe Sec";"School";0.08891;34.65731
+"D";"Vihiga";17;"Eumhaya";599;"D17599";"Ebusiloli C.O.G";"Church";0.0743;34.66585
+"D";"Vihiga";17;"Eumhaya";600;"D17600";"Ebusiratsi Sec";"School";0.08855;34.63767
+"D";"Vihiga";17;"Eumhaya";601;"D17601";"Ematsi Sec";"School";0.00859;34.62067
+"D";"Vihiga";17;"Eumhaya";602;"D17602";"Ebuyalu Sec";"School";0.08047;34.57181
+"D";"Vihiga";17;"Eumhaya";603;"D17603";"Emmuli Esianduba Ack";"Church";0.03537;34.56776
+"D";"Vihiga";17;"Eumhaya";604;"D17604";"Ebwiranyi ACK";"Church";0.01515;34.56011
+"D";"Vihiga";17;"Eumhaya";605;"D17605";"Ebulonga Ekayila C.O.G";"Church";0.03077;34.56914
+"D";"Vihiga";17;"Eumhaya";606;"D17606";"Ekwanda ACK";"Church";0.02009;34.57222
+"D";"Vihiga";17;"Eumhaya";607;"D17607";"Ebulonga Ebusembe Ack";"Church";0.00983;34.58611
+"D";"Vihiga";17;"Eumhaya";608;"D17608";"Ebusanda ACK";"Church";0.00249;34.59059
+"D";"Vihiga";17;"Eumhaya";609;"D17609";"Coptic Orthodox";"Church";0.01081;34.60541
+"D";"Vihiga";17;"Eumhaya";610;"D17610";"Emmuli Ebutuku C.O.G";"Church";0.03378;34.55816
+"D";"Vihiga";17;"Eumhaya";611;"D17611";"Mumboha C.O.G";"Church";0.02497;34.58497
+"D";"Vihiga";17;"Eumhaya";612;"D17612";"Epang'a COG";"Church";0.03156;34.60047
+"D";"Vihiga";17;"Eumhaya";613;"D17613";"Ebulonga Ematioli Skyhigh";"School";0.04554;34.61645
+"D";"Vihiga";17;"Eumhaya";614;"D17614";"Irumbi Pri";"School";0.06072;34.62984
+"D";"Vihiga";17;"Eumhaya";615;"D17615";"Esongole Sec";"School";0.04835;34.64217
+"D";"Vihiga";17;"Eumhaya";616;"D17616";"Ibubbi COG";"Church";0.03581;34.63571
+"D";"Vihiga";17;"Eumhaya";617;"D17617";"Hobunaka Sec";"School";0.02115;34.6337
+"D";"Vihiga";17;"Eumhaya";618;"D17618";"Kima Mission Hosp";"Hospital";0.02574;34.62392
+"D";"Vihiga";17;"Eumhaya";619;"D17619";"Emabwe Pri";"School";0.09481;34.58765
+"D";"Vihiga";18;"Vihiga";620;"D18620";"Vihiga D.H";"District Hosp";0.07947;34.72277
+"D";"Vihiga";18;"Vihiga";621;"D18621";"Idavaga Pri";"School";0.0817;34.72107
+"D";"Vihiga";18;"Vihiga";622;"D18622";"Enanga Pri";"School";0.00527;34.69699
+"D";"Vihiga";18;"Vihiga";623;"D18623";"Kigadahi Pri";"School";0.01302;34.67745
+"D";"Vihiga";18;"Vihiga";624;"D18624";"Idereri Pri";"School";0.01398;34.69883
+"D";"Vihiga";18;"Vihiga";625;"D18625";"Vigetse Pri";"Salvation Church";0.01992;34.69292
+"D";"Vihiga";18;"Vihiga";626;"D18626";"Kisienya Pri";"School";0.04393;3466601
+"D";"Vihiga";18;"Vihiga";627;"D18627";"Madzu Salvation";"Church";0.03188;34.6736
+"D";"Vihiga";18;"Vihiga";628;"D18628";"Chanzeywe Pri";"School";0.02421;34.6664
+"D";"Vihiga";18;"Vihiga";629;"D18629";"Kerongo Pri";"School";0.00904;34.64842
+"D";"Vihiga";18;"Vihiga";630;"D18630";"Madzugi Pri";"School";0.00965;34.6791
+"D";"Vihiga";18;"Vihiga";631;"D18631";"Mbale Rural";"Training Centre";0.08022;34.72207
+"D";"Vihiga";18;"Vihiga";632;"D18632";"Chango Friends";"Church";0.0576;34.72692
+"D";"Vihiga";18;"Vihiga";633;"D18633";"Navuhi Friends";"Church";0.04954;34.73341
+"D";"Vihiga";18;"Vihiga";634;"D18634";"Chanzaruka P.A.G";"Church";0.04368;34.70136
+"D";"Vihiga";18;"Vihiga";635;"D18635";"Vihiga Friends";"Church";0.0371;34.71105
+"D";"Vihiga";18;"Vihiga";636;"D18636";"Vihiga H/C";"Health Centre";0.03901;34.71471
+"D";"Vihiga";18;"Vihiga";637;"D18637";"Vumale Pri";"School";0.07515;34.72767
+"D";"Vihiga";18;"Vihiga";638;"D18638";"Iduku Pri";"School";0.07803;34.69242
+"D";"Vihiga";18;"Vihiga";639;"D18639";"Busamo Salvation";"Church";0.07906;34.67718
+"D";"Vihiga";18;"Vihiga";640;"D18640";"Kereda P.A.G";"Church";0.0529;34.66906
+"D";"Vihiga";18;"Vihiga";641;"D18641";"Magui Friends";"Church";0.05561;34.6988
+"D";"Vihiga";18;"Vihiga";642;"D18642";"Buhani ACK";"Church";0.01701;3465946
+"D";"Vihiga";18;"Vihiga";643;"D18643";"Kivagala Friends";"Church";0.06761;34.75381
+"D";"Vihiga";18;"Vihiga";644;"D18644";"Mudete PAG";"Church";0.11321;34.78567
+"D";"Vihiga";18;"Vihiga";645;"D18645";"Mabai Friends";"Church";0.09452;34.70119
+"D";"Vihiga";18;"Vihiga";646;"D18646";"Munugi Friends";"Church";0.09625;34.71016
+"D";"Vihiga";18;"Vihiga";647;"D18647";"Lwunza Friends";"Church";0.11371;34.72847
+"D";"Vihiga";18;"Vihiga";648;"D18648";"Walodeya PAG";"Church";0.11109;34.64735
+"D";"Vihiga";18;"Vihiga";649;"D18649";"Viyalo Friends";"Church";0.1283;34.7142
+"D";"Vihiga";18;"Vihiga";650;"D18650";"Kegondi Friends";"Church";0.12492;34.74971
+"D";"Vihiga";18;"Vihiga";651;"D18651";"Kisatiru Friends";"Church";0.12492;34.74971
+"D";"Vihiga";18;"Vihiga";652;"D18652";"Mulele PAG";"Church";0.13029;34.75844
+"D";"Vihiga";18;"Vihiga";653;"D18653";"Bugina Friends";"Church";0.14027;34.76826
+"D";"Vihiga";18;"Vihiga";654;"D18654";"Budagwa Friends";"Church";0.14369;34.78055
+"D";"Vihiga";18;"Vihiga";655;"D18655";"Chamakanga Catholic";"Church";0.14716;34.79554
+"D";"Vihiga";18;"Vihiga";656;"D18656";"Chavogere Mission";"Church";0.15096;34.81052
+"D";"Vihiga";18;"Vihiga";657;"D18657";"Busweta Friends";"Church";0.12222;34.8147
+"D";"Vihiga";18;"Vihiga";658;"D18658";"Mudungu Salvation Army";"Church";0.10413;34.79711
+"D";"Vihiga";18;"Vihiga";659;"D18659";"Kigama Friends Church";"Church";0.0929;34.76733
+"D";"Vihiga";18;"Vihiga";660;"D18660";"Malemba PAG";"Church";0.09929;34.74448
+"D";"Vihiga";18;"Vihiga";661;"D18661";"Tsimbalo PAG";"Church";0.0847;34.72758
+"D";"Vihiga";18;"Vihiga";662;"D18662";"Sabatia CCC";"Health Facility";0.12086;34.78708
+"D";"Vihiga";19;"Hamisi";663;"D19663";"Bumuyange";"Church";0.09876;34.81628
+"D";"Vihiga";19;"Hamisi";664;"D19664";"Hamisi Stadium";"Stadium";0.06907;34.71602
+"D";"Vihiga";19;"Hamisi";665;"D19665";"Jebrongo Pri";"School";0.07251;34.78964
+"D";"Vihiga";19;"Hamisi";666;"D19666";"Buvai Israel";"Church";0.07245;34.76096
+"D";"Vihiga";19;"Hamisi";667;"D19667";"Kimogoi Disp";"Facility";0.05252;34.7792
+"D";"Vihiga";19;"Hamisi";668;"D19668";"Saride Pri";"School";0.02899;34.77245
+"D";"Vihiga";19;"Hamisi";669;"D19669";"Tambua D.O's Office";"Admin's Ofc";0.01689;34.76506
+"D";"Vihiga";19;"Hamisi";670;"D19670";"Mwembe Mkt";"Facility";0.03061;34.80331
+"D";"Vihiga";19;"Hamisi";671;"D19671";"Kapsotik Pri";"School";0.07223;34.8414
+"D";"Vihiga";19;"Hamisi";672;"D19672";"Wawani Catholic";"Church";0.07339;34.83641
+"D";"Vihiga";19;"Hamisi";673;"D19673";"Gimariani Pri";"School";0.06861;34.82894
+"D";"Vihiga";19;"Hamisi";674;"D19674";"Jiruani PAG";"Church";0.08482;34.83627
+"D";"Vihiga";19;"Hamisi";675;"D19675";"Kipchekwen PAG";"Church";0.06929;34.81738
+"D";"Vihiga";19;"Hamisi";676;"D19676";"Kaptech Disp";"Facility";0.16463;34.82449
+"D";"Vihiga";19;"Hamisi";677;"D19677";"Makuchi Friends";"Church";0.15191;34.85645
+"D";"Vihiga";19;"Hamisi";678;"D19678";"Mwiliza PAG";"Church";0.15722;34.91636
+"D";"Vihiga";19;"Hamisi";679;"D19679";"Chepkoyai D.O's Office";"Admin's Ofc";0.02298;34.73531
+"D";"Vihiga";19;"Hamisi";680;"D19680";"Tigoi Pri";"School";0.00674;34.72604
+"D";"Vihiga";19;"Hamisi";681;"D19681";"Boyani Poly";"Facility";0.01413;34.73489
+"D";"Vihiga";19;"Hamisi";682;"D19682";"Nyang'ori Disp";"Facility";0.02198;34.74407
+"D";"Vihiga";19;"Hamisi";683;"D19683";"Simbi Pri";"School";0.00418;34.74803
+"D";"Vihiga";19;"Hamisi";684;"D19684";"Kaimosi Mission Hosp";"Facility";0.12515;34.845
+"D";"Vihiga";19;"Hamisi";685;"D19685";"George Khaniri Pri";"School";0.19452;34.92526
+"D";"Vihiga";19;"Hamisi";686;"D19686";"Kisasi Friends";"Church";0.10494;34.84987
+"D";"Vihiga";19;"Hamisi";687;"D19687";"Shamakhokho Friends";"Church";0.1076;34.83185
