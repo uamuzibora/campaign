@@ -141,7 +141,8 @@ CREATE TABLE clients (
     hiv_result integer,
     syphilis_result integer,
     couple_dicordant integer,
-    condoms_given integer
+    condoms_given integer,
+    created timestamp
 );
 
 

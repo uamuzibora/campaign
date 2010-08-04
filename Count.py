@@ -1,38 +1,40 @@
 import pg
-import dbConfig
+
 import db
 class Count:
     def __init__(self,zone="All",district="All",site="All"):
         self.zone=zone
         self.district=district
         self.site=site
-        self.db=db.db()
+        self.db=db.DB()
         #make a list of all the sites we want:
         self.list=[]
         if site!="All":
+            site=self.db.query_list("SELECT location_id from camp_locations where location_id=%s",site)[0][0]
             self.sub_locations=[(site,'site')]
             self.list=[site]
         else:
             if district !="All":
-                res=self.db.query("SELECT location_id from camp_locations where belongs_to='"+district+"'").getresult()
-                
+                res=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",district)
+
                 self.list=[i[0] for i in res]
                 self.sub_locations=[(i[0],'site') for i in res]
                 if len(self.list)==0:#temporary fix
                         self.list=['bjarne']
             else:
                 if zone!="All":
-                    res=self.db.query("SELECT location_id from camp_locations where belongs_to='"+zone+"'").getresult()
+                    res=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",zone)
                     dists=[i[0] for i in res]
+                    
                     self.sub_locations=[(i[0],'district') for i in res]
                     for d in dists:
-                        
-                        res=self.db.query("SELECT location_id from camp_locations where belongs_to='"+d+"'").getresult()
+                    
+                        res=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",d)
                         self.list+=[i[0] for i in res]
                     if len(self.list)==0:#temporary fix
                         self.list=['bjarne']
                 else:
-                    res=self.db.query("SELECT location_id from camp_locations where location_type='zone'").getresult()
+                    res=self.db.query_list("SELECT location_id from camp_locations where location_type='zone'")
                     self.sub_locations=[(i[0],'zone') for i in res]
         
         if len(self.list)==0:
@@ -50,9 +52,9 @@ class Count:
         self.total={}
         self.total_wp={}
 
-        tested = self.db.query("SELECT date,count(id) from clients where "+self.locations+" GROUP BY date").getresult()
+        tested = self.db.query_list("SELECT date,count(id) from clients where "+self.locations+" GROUP BY date")
         
-        positive = self.db.query("SELECT date,count(id) from clients where hiv_result=1 and "+self.locations+" GROUP by date").getresult()
+        positive = self.db.query_list("SELECT date,count(id) from clients where hiv_result=1 and "+self.locations+" GROUP by date")
         for i in range(len(tested)):
            
             self.total[tested[i][0]]={}
@@ -68,12 +70,12 @@ class Count:
             
         #Sex:
 
-        male_tested=self.db.query("SELECT count(id) from clients where sex=1 and "+self.locations).getresult()[0][0]
-        female_tested=self.db.query("SELECT count(id) from clients where sex=2 and "+self.locations).getresult()[0][0]
+        male_tested=self.db.query_list("SELECT count(id) from clients where sex=1 and "+self.locations)[0][0]
+        female_tested=self.db.query_list("SELECT count(id) from clients where sex=2 and "+self.locations)[0][0]
 
 
-        male_positive=self.db.query("SELECT count(id) from clients where sex=1 and hiv_result=1 and "+self.locations).getresult()[0][0]
-        female_positive=self.db.query("SELECT count(id) from clients where sex=2 and hiv_result=1  and "+self.locations).getresult()[0][0]
+        male_positive=self.db.query_list("SELECT count(id) from clients where sex=1 and hiv_result=1 and "+self.locations)[0][0]
+        female_positive=self.db.query_list("SELECT count(id) from clients where sex=2 and hiv_result=1  and "+self.locations)[0][0]
         self.sex={'Male':{'Tested':male_tested,'Positive':male_positive},'Female':{'Tested':female_tested,'Positive':female_positive}}
         self.sex_wp={}
         if male_tested!=0:
@@ -103,8 +105,8 @@ class Count:
                 b0=b[0]
                 b1=b[1]
             self.age[string]={}
-            self.age[string]['Tested']=self.db.query("SELECT count(id) from clients where age >= "+str(b0)+" and age <= "+str(b1)+" and "+self.locations).getresult()[0][0]
-            self.age[string]['Positive']=self.db.query("SELECT count(id) from clients where hiv_result=1 and age >= "+str(b0)+" and age <= "+str(b1)+" and "+self.locations).getresult()[0][0]
+            self.age[string]['Tested']=self.db.query_list("SELECT count(id) from clients where age >= "+str(b0)+" and age <= "+str(b1)+" and "+self.locations)[0][0]
+            self.age[string]['Positive']=self.db.query_list("SELECT count(id) from clients where hiv_result=1 and age >= "+str(b0)+" and age <= "+str(b1)+" and "+self.locations)[0][0]
             if self.age[string]['Tested']!=0:
                 self.age[string]['% HIV Prevalence']=self.age[string]['Positive']/float(self.age[string]['Tested'])*100
             else:
@@ -120,45 +122,45 @@ class Count:
         
         for loc in self.sub_locations:
             if loc[1]=='site':
-                name=self.db.query("SELECT name from camp_locations where location_id='"+loc[0]+"'").getresult()[0][0]
+                name=self.db.query_list("SELECT name from camp_locations where location_id='"+loc[0]+"'")[0][0]
                 self.geo[name]={}
-                self.geo[name]['Tested'] = self.db.query("SELECT count(id) from clients where site_id='"+loc[0]+"'").getresult()[0][0]
+                self.geo[name]['Tested'] = self.db.query_list("SELECT count(id) from clients where site_id='"+loc[0]+"'")[0][0]
 
-                self.geo[name]['Positive'] = self.db.query("SELECT count(id) from clients where hiv_result=1 and site_id='"+loc[0]+"'").getresult()[0][0]
+                self.geo[name]['Positive'] = self.db.query_list("SELECT count(id) from clients where hiv_result=1 and site_id=%s",loc[0])[0][0]
                 if self.geo[name]['Tested']!=0:
                     self.geo[name]['% HIV Prevalence']=self.geo[name]['Positive']/float(self.geo[name]['Tested'])*100
                 else:
                     self.geo[name]['% HIV Prevalence']=0
                 
             if loc[1]=='district':
-                name=self.db.query("SELECT name from camp_locations where location_id='"+loc[0]+"'").getresult()[0][0]
-                sites=self.db.query("SELECT location_id from camp_locations where belongs_to='"+loc[0]+"'").getresult()
+                name=self.db.query_list("SELECT name from camp_locations where location_id=%s",loc[0])[0][0]
+                sites=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",loc[0])
                 sites=[s[0] for s in sites]
                 sites="site_id in ('"+"','".join(sites)+"')"
                 self.geo[name]={}
-                self.geo[name]['Tested'] = self.db.query("SELECT count(id) from clients where "+sites).getresult()[0][0] 
-                self.geo[name]['Positive'] = self.db.query("SELECT count(id) from clients where hiv_result=1 and "+sites).getresult()[0][0]
+                self.geo[name]['Tested'] = self.db.query_list("SELECT count(id) from clients where "+sites)[0][0] 
+                self.geo[name]['Positive'] = self.db.query_list("SELECT count(id) from clients where hiv_result=1 and "+sites)[0][0]
                 if self.geo[name]['Tested']!=0:
                     self.geo[name]['% HIV Prevalence']=self.geo[name]['Positive']/float(self.geo[name]['Tested'])*100
                 else:
                     self.geo[name]['% HIV Prevalence']=0
             if loc[1]=='zone':
 
-                name=self.db.query("SELECT name from camp_locations where location_id='"+loc[0]+"'").getresult()[0][0]
-                districts=self.db.query("SELECT location_id from camp_locations where belongs_to='"+loc[0]+"'").getresult()
+                name=self.db.query_list("SELECT name from camp_locations where location_id=%s",loc[0])[0][0]
+                districts=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",loc[0])
 
                 sites=[]
                 for d in districts:
                     
-                    sites+=self.db.query("SELECT location_id from camp_locations where belongs_to='"+d[0]+"'").getresult()
+                    sites+=self.db.query_list("SELECT location_id from camp_locations where belongs_to=%s",d[0])
 
                 sites=[s[0] for s in sites]
 
                 sites="site_id in ('"+"','".join(sites)+"')"
 
                 self.geo[name]={}
-                self.geo[name]['Tested'] = self.db.query("SELECT count(id) from clients where "+sites).getresult()[0][0] 
-                self.geo[name]['Positive'] = self.db.query("SELECT count(id) from clients where hiv_result=1 and "+sites).getresult()[0][0]
+                self.geo[name]['Tested'] = self.db.query_list("SELECT count(id) from clients where "+sites)[0][0] 
+                self.geo[name]['Positive'] = self.db.query_list("SELECT count(id) from clients where hiv_result=1 and "+sites)[0][0]
                 
                 if self.geo[name]['Tested']!=0:
                     self.geo[name]['% HIV Prevalence']=self.geo[name]['Positive']/float(self.geo[name]['Tested'])*100

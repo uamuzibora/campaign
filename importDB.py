@@ -15,12 +15,8 @@ fields_pat=['vfcc','surname','forenames','date_of_birth','sex','home','telephone
 
 class importDB:
     def __init__(self):
-        self.db=db.db()
-    def unique(self,table,column,entry):
-        ret=False
-        if len(self.db.query("SELECT "+column+" FROM "+table+" where "+column+" = '"+str(entry)+"'").getresult())==0:
-            ret=True
-        return ret
+        self.db=db.DB()
+
 
     def checkFormat(self,f):
         ret=None
@@ -72,18 +68,26 @@ class importDB:
                 
             pat['created']=created
             pat['modified']=created
-            pat['vf_test_site']=header['test_site_id']
+            pat['vf_testing_site']=header['test_site_id']
             med_inf['created']=created
             med_inf['modified']=created
             med_inf['patient_source_id']=6#VF
             med_inf['hiv_positive_date']=header['date']
             med_inf['hiv_positive_test_location_id']=header['test_site_id']
-            if pat['vfcc'] and self.unique('patients','vfcc',pat['vfcc']):
-             
-                ins = self.db.insert('patients',pat)
-                pid=self.db.query('SELECT last_value from patients_pid_seq').getresult()[0][0]
+
+            if pat['vfcc'] and not self.db.in_db('patients','vfcc',pat['vfcc']):
+                
+                
+                self.db.insert('patients',pat)
+                pid=self.db.query_list('SELECT last_value from patients_pid_seq')[0][0]
+                result={'test_id':21,'test_performed':header['date'],'pid':pid,'created':created,'modified':created,'user_id':1}
+                self.db.insert('results',result)
+                result_id=pid=self.db.query_list('SELECT last_value from results_id_seq')[0][0]
+                result_value={'result_id':result_id,'value_decimal':l[15],'created':created,'modified':created,'user_id':1}
+                self.db.insert('result_values',result_value)
+                
                 med_inf['pid']=pid
-                ins=self.db.insert('medical_informations',med_inf)
+                self.db.insert('medical_informations',med_inf)
                 i+=1
         return i, None
     def register(self,f):
@@ -106,12 +110,12 @@ class importDB:
 
         s=f.readline().split(',')
         
-        qu=self.db.query("SELECT id FROM camp_locations where location_id='"+header['site_id']+"'").getresult()
+        qu=self.db.in_db('camp_locations','location_id',header['site_id'])
         
         number=0
         
-        if len(qu)>0:# We have a site id that exists
-
+        if qu:# We have a site id that exists
+           
             for line in f:
                 
 
@@ -147,10 +151,11 @@ class importDB:
                             dct[fields[n]]=l[n];
                 dct['created']=created
                 #print dct
-                if dct['client_code'] and self.unique("clients","client_code",dct["client_code"]):
-            
+
+                if dct['client_code'] and not self.db.in_db("clients","client_code",dct["client_code"]):
+
                     ins = self.db.insert('clients',dct)
-                    client_id=self.db.query('SELECT last_value from clients_id_seq').getresult()[0][0]
+                    client_id=self.db.query_list('SELECT last_value from clients_id_seq')[0][0]
                     for r in reason,information,referal:
                         for k in r:
                             k['client_id']=client_id

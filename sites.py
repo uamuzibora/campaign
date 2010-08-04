@@ -2,7 +2,7 @@
 import db
 import sys
 
-db=db.db()
+db=db.DB()
 
 f=open(sys.argv[1],"r")
 f.readline()
@@ -14,4 +14,4 @@ for l in f:
     camp_loc['belongs_to']=l[2]
     db.insert('camp_locations',camp_loc)
 f.close()
-db.close()
+

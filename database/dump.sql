@@ -148,7 +148,8 @@ CREATE TABLE clients (
     hiv_result integer,
     syphilis_result integer,
     couple_dicordant integer,
-    condoms_given integer
+    condoms_given integer,
+    created timestamp
 );
 
 
@@ -265,7 +266,8 @@ SELECT pg_catalog.setval('imported_id_seq', 1, false);
 CREATE TABLE information (
     id integer NOT NULL,
     client_id integer NOT NULL,
-    information_id integer NOT NULL
+    information_id integer NOT NULL,
+    created timestamp
 );
 
 
@@ -304,7 +306,8 @@ CREATE TABLE logistics (
     site_id character varying NOT NULL,
     date timestamp without time zone,
     care_packs integer,
-    hiv_tests integer
+    hiv_tests integer,
+    created timestamp
 );
 
 
@@ -343,7 +346,7 @@ CREATE TABLE medical_informations (
     patient_source_id integer,
     funding_id integer,
     hiv_positive_date date,
-    hiv_positive_test_location_id integer,
+    hiv_positive_test_location_id character varying,
     hiv_positive_clinic_start_date date,
     hiv_positive_who_stage integer,
     art_naive boolean,
@@ -399,7 +402,7 @@ CREATE TABLE patients (
     nearest_school character varying,
     nearest_health_centre character varying,
     nearest_major_landmark character varying,
-    vf_testing_site integer,
+    vf_testing_site character varying,
     status boolean DEFAULT true NOT NULL,
     inactive_reason_id integer,
     status_timestamp date,
@@ -446,7 +449,8 @@ SELECT pg_catalog.setval('patients_pid_seq', 1, false);
 CREATE TABLE reason (
     id integer NOT NULL,
     client_id integer NOT NULL,
-    reason_id integer NOT NULL
+    reason_id integer NOT NULL,
+    created timestamp
 );
 
 
@@ -483,7 +487,8 @@ SELECT pg_catalog.setval('reason_id_seq', 3988, true);
 CREATE TABLE referal (
     id integer NOT NULL,
     client_id integer NOT NULL,
-    referal_id integer NOT NULL
+    referal_id integer NOT NULL,
+    created timestamp
 );
 
 
@@ -511,6 +516,83 @@ ALTER SEQUENCE referal_id_seq OWNED BY referal.id;
 --
 
 SELECT pg_catalog.setval('referal_id_seq', 3880, true);
+
+
+--
+-- Name: result_values; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE TABLE result_values (
+    id integer NOT NULL,
+    result_id integer NOT NULL,
+    value_decimal double precision,
+    value_text character varying,
+    value_lookup integer,
+    user_id integer NOT NULL,
+    created timestamp without time zone NOT NULL,
+    modified timestamp without time zone NOT NULL
+);
+
+
+--
+-- Name: result_values_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE result_values_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+--
+-- Name: result_values_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE result_values_id_seq OWNED BY result_values.id;
+
+
+--
+-- Name: result_values_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+--
+
+SELECT pg_catalog.setval('result_values_id_seq', 1, true);
+
+
+--
+-- Name: results; Type: TABLE; Schema: public; Owner: -; Tablespace: 
+--
+
+CREATE TABLE results (
+    id integer NOT NULL,
+    pid integer NOT NULL,
+    test_id integer NOT NULL,
+    test_performed timestamp without time zone,
+    created timestamp without time zone NOT NULL,
+    modified timestamp without time zone NOT NULL,
+    requesting_clinician character varying,
+    user_id integer NOT NULL
+);
+
+
+--
+-- Name: results_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE results_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+--
+-- Name: results_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE results_id_seq OWNED BY results.id;
 
 
 --
@@ -574,6 +656,18 @@ ALTER TABLE reason ALTER COLUMN id SET DEFAULT nextval('reason_id_seq'::regclass
 --
 
 ALTER TABLE referal ALTER COLUMN id SET DEFAULT nextval('referal_id_seq'::regclass);
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE result_values ALTER COLUMN id SET DEFAULT nextval('result_values_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE results ALTER COLUMN id SET DEFAULT nextval('results_id_seq'::regclass);
 
 
 --

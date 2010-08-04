@@ -4,7 +4,7 @@
 %>
 
 <%def name="date(date)">
-${datetime.datetime.strptime(date,"%Y-%m-%d %H:%M:%S").strftime("%d %b %Y")}
+${date.strftime("%d %b %Y")}
 </%def>
 <%def name="date_table(data)">
 <table>  
@@ -86,7 +86,7 @@ keys=sorted(data.keys())
    if len(data.keys())>0:
        series = data[data.keys()[0]].keys()
        for d in data.keys():
-           new_dates.append(calendar.timegm(time.strptime(d,"%Y-%m-%d %H:%M:%S"))*1000)
+           new_dates.append(calendar.timegm(d.timetuple())*1000)
        max_time=sorted(new_dates)[0]+6*24*3600*1000
        if sorted(new_dates)[-1]>max_time:
            max_time=sorted(new_dates)[-1]
