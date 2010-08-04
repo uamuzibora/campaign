@@ -24,7 +24,7 @@ def get_locations(zone,district):
             sites=db.query_list("SELECT location_id,name from camp_locations where location_type='site'")
 
     
-    zones=db.query_listq("SELECT location_id,name from camp_locations where location_type='zone'")
+    zones=db.query_list("SELECT location_id,name from camp_locations where location_type='zone'")
     return zones,districts,sites
 
 if __name__=='__main__':

@@ -5,8 +5,11 @@ from dbConfig import *
 
 class DB:
     def __init__(self):
-        self.connection=psycopg2.connect(host=host,user=user,password=password,database=database)
-    
+        if password:
+            self.connection=psycopg2.connect(host=host,user=user,password=password,database=database)
+        else:#for ident
+            
+            self.connection=psycopg2.connect(user=user,database=database)
         self.cursor=self.connection.cursor()
 
     def insert(self,table,dictionary):
