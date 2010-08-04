@@ -31,7 +31,7 @@ from email.mime.text import MIMEText
 
 
 db_imp=importDB()
-db=db.db()
+db=db.DB()
 f=open(config.log_path+"log.txt","a")
 # messagesInfo = server.list()
 
@@ -44,7 +44,7 @@ f=open(config.log_path+"log.txt","a")
 
 def not_imported(mail, numb):
     ret=False
-    if len(db.query("SELECT id FROM email where mail_number = "+str(numb)).getresult())==0:
+    if len(db.query_list("SELECT id FROM email where mail_number =%s "numb))==0:
         ret=True
     return ret
 
