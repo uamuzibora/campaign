@@ -1,0 +1,12 @@
+Software to track the HIV testing campaign run by VF in Western Province in Kenya 2010.
+
+Python modules needed:
+
+mako
+psycopg2
+
+To install:
+Set up wsgi to point to index.py script with webroot being the webroot folder.
+Create a database with the schema from database/schema.sql
+Change dbConfig.py to reflect your database.
+Change config.py to reflect your setup.
